@@ -172,3 +172,5 @@ ENV/
 
 # files
 *.zip
+
+*.DS_Store
