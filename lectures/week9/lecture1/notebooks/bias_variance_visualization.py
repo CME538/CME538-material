@@ -99,7 +99,7 @@ def bias_variance_visualizer(data, deg, test_split, n_samples, n_models, folder,
         ax1.set_title('Model: Polynomial Order {}\nTrain (80%)'.format(deg), fontsize=26, loc='left', y=1.05)
 
         # Plot true function
-        sns.lineplot(np.arange(-10, 10, 0.01), func(np.arange(-10, 10, 0.01)),
+        sns.lineplot(x=np.arange(-10, 10, 0.01), y=func(np.arange(-10, 10, 0.01)),
                      color='#fc4f30', ax=ax1, lw=1, label='True Function')
 
         # Population
@@ -114,7 +114,7 @@ def bias_variance_visualizer(data, deg, test_split, n_samples, n_models, folder,
         # Plot current model and data
         ax1.vlines(x_trains[idx].flatten(), ymin=y_trains[idx].flatten(), ymax=y_train_preds[idx].flatten(),
                    linestyle='-', color='#e5ae38', alpha=0.3, zorder=0, label='Error')
-        sns.scatterplot(x_trains[idx].flatten(), y_trains[idx].flatten(), ax=ax1, label='Sample', s=60)
+        sns.scatterplot(x=x_trains[idx].flatten(), y=y_trains[idx].flatten(), ax=ax1, label='Sample', s=60)
         ax1.plot(x_model_plot[idx].flatten(), y_model_plot[idx].flatten(), label='Prediction', color='#6d904f', lw=4)
 
         # Format figure
@@ -130,7 +130,7 @@ def bias_variance_visualizer(data, deg, test_split, n_samples, n_models, folder,
         ax2.set_title('Test (20%)', fontsize=26, loc='left', y=1.05)
 
         # Plot true function
-        sns.lineplot(np.arange(-10, 10, 0.01), func(np.arange(-10, 10, 0.01)),
+        sns.lineplot(x=np.arange(-10, 10, 0.01), y=func(np.arange(-10, 10, 0.01)),
                      color='#fc4f30', ax=ax2, lw=1, label='True Function')
 
         # Population
@@ -145,7 +145,7 @@ def bias_variance_visualizer(data, deg, test_split, n_samples, n_models, folder,
         # Plot current model and data
         ax2.vlines(x_tests[idx].flatten(), ymin=y_tests[idx].flatten(), ymax=y_test_preds[idx].flatten(), linestyle='-',
                    color='#e5ae38', alpha=0.3, zorder=0, label='Error')
-        sns.scatterplot(x_tests[idx].flatten(), y_tests[idx].flatten(), ax=ax2, label='Sample', s=60)
+        sns.scatterplot(x=x_tests[idx].flatten(), y=y_tests[idx].flatten(), ax=ax2, label='Sample', s=60)
         ax2.plot(x_model_plot[idx].flatten(), y_model_plot[idx].flatten(), label='Prediction', color='#6d904f', lw=4)
 
         # Format figure
