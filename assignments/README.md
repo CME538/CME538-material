@@ -4,7 +4,7 @@
 
 ### Assignments
 
-Each assignment directory contains a student notebook and the data or supporting files required for the work.
+Each assignment directory contains a starter notebook and the data or supporting files required for the work.
 
 | Assignment | General Focus | Contents |
 |---|---|---|
