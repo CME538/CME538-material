@@ -4,18 +4,18 @@
 
 ### Tutorials
 
-The tutorial directories contain starter notebooks, datasets, databases, and supporting files.
+Each tutorial directory contains a starter notebook, a solution notebook, and the datasets, databases, and supporting files it needs. Tutorial 1 is starter-only. A `.zip` of each directory is provided alongside it for download.
 
 | Tutorial | General Focus | Contents |
 |---|---|---|
-| [Tutorial 1](./tutorial%201/) | Data science toolbox | Jupyter notebooks, Markdown, variables, notebook state, functions, imports, and a small sensor-data example. |
-| [Tutorial 2](./tutorial%202/) | Pandas | DataFrame creation, indexing, selection, modification, and analysis using U.S. baby-name data. |
-| [Tutorial 3](./tutorial%203/) | HTML parsing and datetimes | Web scraping, list comprehensions, DataFrame construction, datetime conversion, and resampling. |
-| [Tutorial 4](./tutorial%204/) | JSON, text analysis, and visualization | Reading and writing JSON, string processing, stopwords, datetime analysis, and visualization. |
-| [Tutorial 5](./tutorial%205/) | Exploratory data analysis and time series | Data inspection, filtering, missing values, wrangling, and temporal analysis using global COVID-19 data. |
-| [Tutorial 6](./tutorial%206/) | Geospatial data analysis | GeoPandas, geometric objects, coordinate reference systems, spatial layers, and mapping with Paris datasets. |
-| [Tutorial 7](./tutorial%207/) | Linear regression and generalization | Car-price prediction, exploratory analysis, feature engineering, train-test splitting, and regression evaluation. |
-| [Tutorial 8](./tutorial%208/) | Classification and model evaluation | Rain prediction, preprocessing pipelines, logistic regression, decision thresholds, evaluation, and cross-validation. |
-| [Tutorial 9](./tutorial%209/) | PCA and K-means clustering | Feature scaling, principal component analysis, K-means clustering, and visualizing the Palmer Penguins dataset. |
+| [Tutorial 1](./tutorial1/) | Data science toolbox | Jupyter notebooks, Markdown, variables, notebook state, functions, imports, and a small sensor-data example. |
+| [Tutorial 2](./tutorial2/) | Pandas | DataFrame creation, indexing, selection, modification, and analysis using U.S. baby-name data. |
+| [Tutorial 3](./tutorial3/) | HTML parsing and datetimes | Web scraping, list comprehensions, DataFrame construction, datetime conversion, and resampling. |
+| [Tutorial 4](./tutorial4/) | JSON, text analysis, and visualization | Reading and writing JSON, string processing, stopwords, datetime analysis, and visualization. |
+| [Tutorial 5](./tutorial5/) | Exploratory data analysis and time series | Data inspection, filtering, missing values, wrangling, and temporal analysis using global COVID-19 data. |
+| [Tutorial 6](./tutorial6/) | Geospatial data analysis | GeoPandas, geometric objects, coordinate reference systems, spatial layers, and mapping with Paris datasets. |
+| [Tutorial 7](./tutorial7/) | Linear regression and generalization | Car-price prediction, exploratory analysis, feature engineering, train-test splitting, and regression evaluation. |
+| [Tutorial 8](./tutorial8/) | Classification and model evaluation | Rain prediction, preprocessing pipelines, logistic regression, decision thresholds, evaluation, and cross-validation. |
+| [Tutorial 9](./tutorial9/) | PCA and K-means clustering | Feature scaling, principal component analysis, K-means clustering, and visualizing the Palmer Penguins dataset. |
 | [Tutorial 10](./tutorial10/) | End-to-end machine-learning pipelines | Concrete-strength prediction, data-quality checks, baselines, decision trees, evaluation, and a saved model pipeline. |
-| [Tutorial 11](./tutorial%2011/) | SQL and relational databases | The Chinook database, relational schemas, filtering, sorting, joins, aggregation, and SQL-to-Pandas workflows. |
+| [Tutorial 11](./tutorial11/) | SQL and relational databases | The Chinook database, relational schemas, filtering, sorting, joins, aggregation, and SQL-to-Pandas workflows. |
