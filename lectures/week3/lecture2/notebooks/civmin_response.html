@@ -1,0 +1,2286 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="profile" href="https://gmpg.org/xfn/11">
+	<link rel="pingback" href="https://civmin.utoronto.ca/xmlrpc.php">
+
+		<meta name="description" content="">
+	<meta property="og:url" content="https://civmin.utoronto.ca"/>
+	<meta property="og:site_name" content="Department of Civil &amp; Mineral Engineering" />
+	<meta property="og:image" content="" />
+	<meta property="og:description" content="" />
+	<meta property="og:title" content="Department of Civil &amp; Mineral Engineering" />
+	<!-- Twitter -->
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:domain" content="https://civmin.utoronto.ca" />
+	<meta name="twitter:title" content="Department of Civil &amp; Mineral Engineering" />
+	<meta name="twitter:description" content="" />
+								<link rel="icon" type="image/x-icon" sizes="16x16" href="https://civmin.utoronto.ca/wp-content/themes/fase-theme-2023-master/favicon.ico">
+	
+	<title>Department of Civil &amp; Mineral Engineering</title>
+<meta name='robots' content='max-image-preview:large' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//use.typekit.net' />
+<link rel="preload" href="https://civmin.utoronto.ca/wp-content/plugins/bb-plugin/fonts/fontawesome/5.15.4/webfonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+<link rel="preload" href="https://civmin.utoronto.ca/wp-content/plugins/bb-plugin/fonts/fontawesome/5.15.4/webfonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<!-- This site uses the Google Analytics by MonsterInsights plugin v9.0.2 - Using Analytics tracking - https://www.monsterinsights.com/ -->
+							<script src="//www.googletagmanager.com/gtag/js?id=G-2E9NND0N6Y"  data-cfasync="false" data-wpfc-render="false" type="text/javascript" async></script>
+			<script data-cfasync="false" data-wpfc-render="false" type="text/javascript">
+				var mi_version = '9.0.2';
+				var mi_track_user = true;
+				var mi_no_track_reason = '';
+								var MonsterInsightsDefaultLocations = {"page_location":"https:\/\/civmin.utoronto.ca\/"};
+				if ( typeof MonsterInsightsPrivacyGuardFilter === 'function' ) {
+					var MonsterInsightsLocations = (typeof MonsterInsightsExcludeQuery === 'object') ? MonsterInsightsPrivacyGuardFilter( MonsterInsightsExcludeQuery ) : MonsterInsightsPrivacyGuardFilter( MonsterInsightsDefaultLocations );
+				} else {
+					var MonsterInsightsLocations = (typeof MonsterInsightsExcludeQuery === 'object') ? MonsterInsightsExcludeQuery : MonsterInsightsDefaultLocations;
+				}
+
+								var disableStrs = [
+										'ga-disable-G-2E9NND0N6Y',
+									];
+
+				/* Function to detect opted out users */
+				function __gtagTrackerIsOptedOut() {
+					for (var index = 0; index < disableStrs.length; index++) {
+						if (document.cookie.indexOf(disableStrs[index] + '=true') > -1) {
+							return true;
+						}
+					}
+
+					return false;
+				}
+
+				/* Disable tracking if the opt-out cookie exists. */
+				if (__gtagTrackerIsOptedOut()) {
+					for (var index = 0; index < disableStrs.length; index++) {
+						window[disableStrs[index]] = true;
+					}
+				}
+
+				/* Opt-out function */
+				function __gtagTrackerOptout() {
+					for (var index = 0; index < disableStrs.length; index++) {
+						document.cookie = disableStrs[index] + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+						window[disableStrs[index]] = true;
+					}
+				}
+
+				if ('undefined' === typeof gaOptout) {
+					function gaOptout() {
+						__gtagTrackerOptout();
+					}
+				}
+								window.dataLayer = window.dataLayer || [];
+
+				window.MonsterInsightsDualTracker = {
+					helpers: {},
+					trackers: {},
+				};
+				if (mi_track_user) {
+					function __gtagDataLayer() {
+						dataLayer.push(arguments);
+					}
+
+					function __gtagTracker(type, name, parameters) {
+						if (!parameters) {
+							parameters = {};
+						}
+
+						if (parameters.send_to) {
+							__gtagDataLayer.apply(null, arguments);
+							return;
+						}
+
+						if (type === 'event') {
+														parameters.send_to = monsterinsights_frontend.v4_id;
+							var hookName = name;
+							if (typeof parameters['event_category'] !== 'undefined') {
+								hookName = parameters['event_category'] + ':' + name;
+							}
+
+							if (typeof MonsterInsightsDualTracker.trackers[hookName] !== 'undefined') {
+								MonsterInsightsDualTracker.trackers[hookName](parameters);
+							} else {
+								__gtagDataLayer('event', name, parameters);
+							}
+							
+						} else {
+							__gtagDataLayer.apply(null, arguments);
+						}
+					}
+
+					__gtagTracker('js', new Date());
+					__gtagTracker('set', {
+						'developer_id.dZGIzZG': true,
+											});
+					if ( MonsterInsightsLocations.page_location ) {
+						__gtagTracker('set', MonsterInsightsLocations);
+					}
+										__gtagTracker('config', 'G-2E9NND0N6Y', {"forceSSL":"true"} );
+															window.gtag = __gtagTracker;										(function () {
+						/* https://developers.google.com/analytics/devguides/collection/analyticsjs/ */
+						/* ga and __gaTracker compatibility shim. */
+						var noopfn = function () {
+							return null;
+						};
+						var newtracker = function () {
+							return new Tracker();
+						};
+						var Tracker = function () {
+							return null;
+						};
+						var p = Tracker.prototype;
+						p.get = noopfn;
+						p.set = noopfn;
+						p.send = function () {
+							var args = Array.prototype.slice.call(arguments);
+							args.unshift('send');
+							__gaTracker.apply(null, args);
+						};
+						var __gaTracker = function () {
+							var len = arguments.length;
+							if (len === 0) {
+								return;
+							}
+							var f = arguments[len - 1];
+							if (typeof f !== 'object' || f === null || typeof f.hitCallback !== 'function') {
+								if ('send' === arguments[0]) {
+									var hitConverted, hitObject = false, action;
+									if ('event' === arguments[1]) {
+										if ('undefined' !== typeof arguments[3]) {
+											hitObject = {
+												'eventAction': arguments[3],
+												'eventCategory': arguments[2],
+												'eventLabel': arguments[4],
+												'value': arguments[5] ? arguments[5] : 1,
+											}
+										}
+									}
+									if ('pageview' === arguments[1]) {
+										if ('undefined' !== typeof arguments[2]) {
+											hitObject = {
+												'eventAction': 'page_view',
+												'page_path': arguments[2],
+											}
+										}
+									}
+									if (typeof arguments[2] === 'object') {
+										hitObject = arguments[2];
+									}
+									if (typeof arguments[5] === 'object') {
+										Object.assign(hitObject, arguments[5]);
+									}
+									if ('undefined' !== typeof arguments[1].hitType) {
+										hitObject = arguments[1];
+										if ('pageview' === hitObject.hitType) {
+											hitObject.eventAction = 'page_view';
+										}
+									}
+									if (hitObject) {
+										action = 'timing' === arguments[1].hitType ? 'timing_complete' : hitObject.eventAction;
+										hitConverted = mapArgs(hitObject);
+										__gtagTracker('event', action, hitConverted);
+									}
+								}
+								return;
+							}
+
+							function mapArgs(args) {
+								var arg, hit = {};
+								var gaMap = {
+									'eventCategory': 'event_category',
+									'eventAction': 'event_action',
+									'eventLabel': 'event_label',
+									'eventValue': 'event_value',
+									'nonInteraction': 'non_interaction',
+									'timingCategory': 'event_category',
+									'timingVar': 'name',
+									'timingValue': 'value',
+									'timingLabel': 'event_label',
+									'page': 'page_path',
+									'location': 'page_location',
+									'title': 'page_title',
+									'referrer' : 'page_referrer',
+								};
+								for (arg in args) {
+																		if (!(!args.hasOwnProperty(arg) || !gaMap.hasOwnProperty(arg))) {
+										hit[gaMap[arg]] = args[arg];
+									} else {
+										hit[arg] = args[arg];
+									}
+								}
+								return hit;
+							}
+
+							try {
+								f.hitCallback();
+							} catch (ex) {
+							}
+						};
+						__gaTracker.create = newtracker;
+						__gaTracker.getByName = newtracker;
+						__gaTracker.getAll = function () {
+							return [];
+						};
+						__gaTracker.remove = noopfn;
+						__gaTracker.loaded = true;
+						window['__gaTracker'] = __gaTracker;
+					})();
+									} else {
+										console.log("");
+					(function () {
+						function __gtagTracker() {
+							return null;
+						}
+
+						window['__gtagTracker'] = __gtagTracker;
+						window['gtag'] = __gtagTracker;
+					})();
+									}
+			</script>
+				<!-- / Google Analytics by MonsterInsights -->
+		<script type="text/javascript">
+/* <![CDATA[ */
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/civmin.utoronto.ca\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.6.2"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83d\udc26\u200d\u2b1b","\ud83d\udc26\u200b\u2b1b")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+/* ]]> */
+</script>
+<style id='wp-emoji-styles-inline-css' type='text/css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+</style>
+<link rel='stylesheet' id='awsm-team-css-css' href='https://civmin.utoronto.ca/wp-content/plugins/awsm-team-pro/css/team.min.css?ver=1.10.2' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-5-css' href='https://civmin.utoronto.ca/wp-content/plugins/bb-plugin/fonts/fontawesome/5.15.4/css/all.min.css?ver=2.8.3.6' type='text/css' media='all' />
+<link rel='stylesheet' id='fl-builder-layout-27502-css' href='https://civmin.utoronto.ca/wp-content/uploads/bb-plugin/cache/27502-layout.css?ver=fd6d6dabf9b22aba6ae03715f08c73ea' type='text/css' media='all' />
+<link rel='stylesheet' id='main-css' href='https://civmin.utoronto.ca/wp-content/themes/fase-theme-2023-master/dist/css/index.min.css?ver=1.0.3' type='text/css' media='all' />
+<link rel='stylesheet' id='general-css' href='https://civmin.utoronto.ca/wp-content/themes/fase-theme-2023-master/dist/css/general.min.css?ver=1.0.3' type='text/css' media='all' />
+<link rel='stylesheet' id='fonts-css' href='https://fonts.googleapis.com/css?family=Open+Sans%3A400%2C600%2C700&#038;ver=1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='typekit-css' href='https://use.typekit.net/egq6ygb.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='tablepress-default-css' href='https://civmin.utoronto.ca/wp-content/tablepress-combined.min.css?ver=126' type='text/css' media='all' />
+<link rel='stylesheet' id='pp-animate-css' href='https://civmin.utoronto.ca/wp-content/plugins/bbpowerpack/assets/css/animate.min.css?ver=3.5.1' type='text/css' media='all' />
+<script type="text/javascript" id="jquery-core-js-extra">
+/* <![CDATA[ */
+var SDT_DATA = {"ajaxurl":"https:\/\/civmin.utoronto.ca\/wp-admin\/admin-ajax.php","siteUrl":"https:\/\/civmin.utoronto.ca\/","pluginsUrl":"https:\/\/civmin.utoronto.ca\/wp-content\/plugins","isAdmin":""};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://civmin.utoronto.ca/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script type="text/javascript" defer='defer' src="https://civmin.utoronto.ca/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<script type="text/javascript" src="https://civmin.utoronto.ca/wp-content/plugins/google-analytics-premium/assets/js/frontend-gtag.min.js?ver=9.0.2" id="monsterinsights-frontend-script-js"></script>
+<script data-cfasync="false" data-wpfc-render="false" type="text/javascript" id='monsterinsights-frontend-script-js-extra'>/* <![CDATA[ */
+var monsterinsights_frontend = {"js_events_tracking":"true","download_extensions":"doc,pdf,ppt,zip,xls,docx,pptx,xlsx","inbound_paths":"[]","home_url":"https:\/\/civmin.utoronto.ca","hash_tracking":"false","v4_id":"G-2E9NND0N6Y"};/* ]]> */
+</script>
+<script type="text/javascript" src="https://civmin.utoronto.ca/wp-content/themes/fase-theme-2023-master/assets/js/vendor/lazysizes.min.js?ver=1.0.0" id="lazysizes-js"></script>
+<script type="text/javascript" src="https://civmin.utoronto.ca/wp-content/themes/fase-theme-2023-master/assets/js/vendor/focus-visible-main/focus-visible.js?ver=1.0.0" id="focus-visible-js"></script>
+<script type="text/javascript" src="https://civmin.utoronto.ca/wp-content/themes/fase-theme-2023-master/dist/js/bundled/browser-detect-combined.min.js?ver=1.0.0" id="browser-detect-js"></script>
+<link rel="https://api.w.org/" href="https://civmin.utoronto.ca/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://civmin.utoronto.ca/wp-json/wp/v2/pages/27502" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://civmin.utoronto.ca/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.6.2" />
+<link rel="canonical" href="https://civmin.utoronto.ca/" />
+<link rel='shortlink' href='https://civmin.utoronto.ca/' />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://civmin.utoronto.ca/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fcivmin.utoronto.ca%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://civmin.utoronto.ca/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fcivmin.utoronto.ca%2F&#038;format=xml" />
+		<script>
+			var bb_powerpack = {
+				search_term: '',
+				version: '2.37.6',
+				getAjaxUrl: function() { return atob( 'aHR0cHM6Ly9jaXZtaW4udXRvcm9udG8uY2Evd3AtYWRtaW4vYWRtaW4tYWpheC5waHA=' ); },
+				callback: function() {}
+			};
+		</script>
+		<meta name="tec-api-version" content="v1"><meta name="tec-api-origin" content="https://civmin.utoronto.ca"><link rel="alternate" href="https://civmin.utoronto.ca/wp-json/tribe/events/v1/" /><link rel="icon" href="https://civmin.utoronto.ca/wp-content/uploads/2014/06/cropped-Title-Screen-Twitter-Logo-2-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://civmin.utoronto.ca/wp-content/uploads/2014/06/cropped-Title-Screen-Twitter-Logo-2-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://civmin.utoronto.ca/wp-content/uploads/2014/06/cropped-Title-Screen-Twitter-Logo-2-180x180.png" />
+<meta name="msapplication-TileImage" content="https://civmin.utoronto.ca/wp-content/uploads/2014/06/cropped-Title-Screen-Twitter-Logo-2-270x270.png" />
+		<style type="text/css" id="wp-custom-css">
+			.main-nav-bar .primary-nav > li a {
+    font-size: 0.95rem;
+}
+
+.ai1ec-day {
+	line-height:0.5;
+}
+
+img, figure {
+	max-width: 100%;
+}
+
+.page-template-default.fl-builder .entry-content>.fl-builder-content>.fl-row.fl-row-fixed-width .fl-row-fixed-width, .page-template-default.fl-builder .entry-content>.fl-builder-content>.fl-row.fl-row-fixed-width .fl-row-full-width, .page-template-default.fl-builder .entry-content>.fl-builder-content>.fl-row.fl-row-full-width .fl-row-fixed-width, .page-template-default.fl-builder .entry-content>.fl-builder-content>.fl-row.fl-row-full-width .fl-row-full-width {
+    margin-left: 0rem !important;		</style>
+		</head>
+
+
+<body class="home page-template page-template-templates page-template-page-wide page-template-templatespage-wide-php page page-id-27502 fl-builder fl-builder-2-8-3-6 fl-theme-1 tribe-no-js">
+	<div id="page" class="site">
+		<header>
+	<a href="#content" class="screen-reader-text skip-link">Skip to content</a>
+	<div class="top-bar grey-bar">
+		<div class="d-md-flex align-items-center content-wrap flex-row justify-content-between">
+			<div class="top-bar-left p-2">
+				<span class="top-bar-left-1">
+					<a href="https://www.engineering.utoronto.ca">
+						<span class="icon-home" aria-hidden="true" tabindex="-1"></span>
+						<span class="link">U of T ENGINEERING</span>
+					</a>
+				</span>
+							</div>
+			<div class="top-bar-right p-2">
+			<div class="menu-top-menu-container"><ul id="secondaryNav" class="top-nav"><li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-32446" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-32446 nav-item level-0"><a href="https://www.utoronto.ca/" class="nav-link" id="menu-item-link-32446">U of T Home</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-32447" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-32447 nav-item level-0"><a href="https://alumni.engineering.utoronto.ca/giving/" class="nav-link" id="menu-item-link-32447">Give Now</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-32448" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-32448 nav-item level-0"><a href="https://www.engineering.utoronto.ca/mental-health-wellness/talk-to-someone-right-now/" class="nav-link" id="menu-item-link-32448">Urgent Support</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-32449" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-32449 nav-item level-0"><a href="https://civmin.utoronto.ca/home/about-us/contact-us/" class="nav-link" id="menu-item-link-32449">Contact</a></li>
+</ul></div>			</div>
+		</div>
+	</div>
+	<div class="middle-bar -with-title">
+		<div class="d-flex align-items-center content-wrap justify-content-between flex-wrap">
+			<div class="main-logo">
+				<a href="https://civmin.utoronto.ca" aria-hidden="true" tabIndex="-1"><img src="https://civmin.utoronto.ca/wp-content/uploads/2023/02/CivMin_Signature_655.svg" alt="Department of Civil &amp; Mineral Engineering Home Page" height="126" width="618" /></a>
+			</div>
+			<div class="main-search">
+				<form role="search" aria-label="Primary search form" method="get" class="search-form" action="https://find.utoronto.ca/search">
+	<label for="headerSearch">
+		<span class="screen-reader-text">Search for:</span>
+		<input id="headerSearch" type="search" class="search-field" placeholder="Search" value="" name="q" />
+	</label>
+	<button type="submit" class="header-search-submit">
+		<span class="icon-search" aria-hidden="true" ></span>
+		<span class="screen-reader-text">Submit Search</span>
+	</button>
+			<input type="hidden" name="output" value="xml_no_dtd">
+		<input type="hidden" name="ie" value="UTF-8">
+		<input type="hidden" name="oe" value="UTF-8">
+		<input type="hidden" name="site" value="Engineering">
+		<input type="hidden" name="client" value="engineering">
+		<input type="hidden" name="proxystylesheet" value="engineering">
+		</form>
+			</div>
+			<div class="desktop-hidden nav-bar-toggle">
+				<button class="main-nav-toggle" aria-controls="mainNavBar" type="button" aria-expanded="false" aria-hidden="true" tabindex="-1">
+					<span class="transformicon"></span>
+					<span class="screen-reader-text">Main Menu</span>
+				</button>
+			</div>
+		</div>
+	</div>
+	<div class="title-bar grey-bar large-hidden">
+		<div class="content-wrap">
+			<p><a href="https://civmin.utoronto.ca">Department of Civil &amp; Mineral Engineering</a></p>
+		</div>
+	</div>
+	<div class="main-nav-bar" id="mainNavBar">
+		<div class="content-wrap">
+			<div class="main-nav">
+			<nav class="menu-main-v2-container" aria-label="Primary navigation"><ul id="primaryNav" class="primary-nav"><li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-20345" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown menu-item-20345 nav-item level-0"><a href="https://civmin.utoronto.ca/home/about-us/" data-url="https://civmin.utoronto.ca/home/about-us/" data-toggle="dropdown" role="button" class="dropdown-toggle nav-link" id="menu-item-dropdown-20345">About</a>
+<ul class="sub-menu" aria-labelledby="menu-item-dropdown-20345" role="menu" aria-label="Sub menu navigation list" >
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-35433" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown menu-item-35433 nav-item level-1"><a href="https://civmin.utoronto.ca/home/about-us/about-civmin/" class="dropdown-item" id="menu-item-link-35433">About CivMin</a>
+	<ul class="sub-menu" aria-labelledby="menu-item-link-35433" role="menu" aria-label="Sub menu navigation list" >
+		<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-37017" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-37017 nav-item level-2"><a href="https://civmin.utoronto.ca/self-study/" class="dropdown-item" id="menu-item-link-37017">Self-Study</a></li>
+		<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-35434" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-35434 nav-item level-2"><a href="https://civmin.utoronto.ca/home/about-us/about-civmin/history/" class="dropdown-item" id="menu-item-link-35434">Department History</a></li>
+		<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-36843" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-36843 nav-item level-2"><a href="https://civmin.utoronto.ca/home/about-us/camp/" class="dropdown-item" id="menu-item-link-36843">Camp</a></li>
+		<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-35435" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-35435 nav-item level-2"><a href="https://civmin.utoronto.ca/home/about-us/about-civmin/skygarden/" class="dropdown-item" id="menu-item-link-35435">SkyGarden</a></li>
+	</ul>
+</li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-20347" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20347 nav-item level-1"><a href="https://civmin.utoronto.ca/home/about-us/about-civmin/department-leadership/" class="dropdown-item" id="menu-item-link-20347">Department Leadership</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-20370" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20370 nav-item level-1"><a href="https://civmin.utoronto.ca/home/about-us/directory/" class="dropdown-item" id="menu-item-link-20370">Directory</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-20349" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown menu-item-20349 nav-item level-1"><a href="https://civmin.utoronto.ca/home/about-us/news/" class="dropdown-item" id="menu-item-link-20349">News</a>
+	<ul class="sub-menu" aria-labelledby="menu-item-link-20349" role="menu" aria-label="Sub menu navigation list" >
+		<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-27165" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27165 nav-item level-2"><a href="https://civmin.utoronto.ca/home/about-us/past-newsletters/" class="dropdown-item" id="menu-item-link-27165">Past Newsletters</a></li>
+		<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-20350" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20350 nav-item level-2"><a href="https://civmin.utoronto.ca/home/about-us/calendar/lectures/" class="dropdown-item" id="menu-item-link-20350">Distinguished Lectures</a></li>
+	</ul>
+</li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-20348" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20348 nav-item level-1"><a href="https://civmin.utoronto.ca/home/about-us/opportunities/" class="dropdown-item" id="menu-item-link-20348">Job Opportunities</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-29022" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29022 nav-item level-1"><a href="https://civmin.utoronto.ca/home/about-us/equity-diversity-and-inclusion/" class="dropdown-item" id="menu-item-link-29022">Equity, Diversity and Inclusion</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-20351" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20351 nav-item level-1"><a href="https://civmin.utoronto.ca/home/about-us/contact-us/" class="dropdown-item" id="menu-item-link-20351">Contact Us</a></li>
+</ul>
+</li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-40101" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-40101 nav-item level-0"><a href="#" data-url="#" data-toggle="dropdown" role="button" class="dropdown-toggle nav-link" id="menu-item-dropdown-40101">Undergraduate Students</a>
+<ul class="sub-menu" aria-labelledby="menu-item-dropdown-40101" role="menu" aria-label="Sub menu navigation list" >
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-20353" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20353 nav-item level-1"><a href="https://civmin.utoronto.ca/home/programs/undergraduate-programs/" class="dropdown-item" id="menu-item-link-20353">Undergraduate Programs &#038; Admission</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-40094" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-40094 nav-item level-1"><a href="https://engineering.calendar.utoronto.ca/search-courses" class="dropdown-item" id="menu-item-link-40094">Undergraduate Courses</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-20355" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20355 nav-item level-1"><a href="https://civmin.utoronto.ca/home/programs/office-of-student-services/" class="dropdown-item" id="menu-item-link-20355">Office of Student Services</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-40114" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-40114 nav-item level-1"><a href="https://q.utoronto.ca/courses/89657" class="dropdown-item" id="menu-item-link-40114">Info Hub (Current Students)</a></li>
+</ul>
+</li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-40102" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-40102 nav-item level-0"><a href="#" data-url="#" data-toggle="dropdown" role="button" class="dropdown-toggle nav-link" id="menu-item-dropdown-40102">Graduate Students</a>
+<ul class="sub-menu" aria-labelledby="menu-item-dropdown-40102" role="menu" aria-label="Sub menu navigation list" >
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-37297" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-37297 nav-item level-1"><a href="https://civmin.utoronto.ca/home/programs/graduate-programs/professional-programs/" class="dropdown-item" id="menu-item-link-37297">Professional Degree Programs</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-37296" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-37296 nav-item level-1"><a href="https://civmin.utoronto.ca/home/programs/graduate-programs/research-programs/" class="dropdown-item" id="menu-item-link-37296">Research Degree Programs</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-20445" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20445 nav-item level-1"><a href="https://civmin.utoronto.ca/home/admissions/graduate-admissions/" class="dropdown-item" id="menu-item-link-20445">Graduate Admissions</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-28204" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28204 nav-item level-1"><a href="https://civmin.utoronto.ca/home/programs/graduate-programs/graduate-fees-scholarships-and-funding/" class="dropdown-item" id="menu-item-link-28204">Graduate Fees, Scholarships &#038; Funding</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-40107" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-40107 nav-item level-1"><a href="https://civmin.utoronto.ca/home/programs/courses/graduate-courses/" class="dropdown-item" id="menu-item-link-40107">Graduate Courses</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-40115" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-40115 nav-item level-1"><a href="https://q.utoronto.ca/courses/97618" class="dropdown-item" id="menu-item-link-40115">Grad Info Hub (Current Students)</a></li>
+</ul>
+</li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-20360" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-20360 nav-item level-0"><a href="https://civmin.utoronto.ca/home/our-research/research/" data-url="https://civmin.utoronto.ca/home/our-research/research/" data-toggle="dropdown" role="button" class="dropdown-toggle nav-link" id="menu-item-dropdown-20360">Research</a>
+<ul class="sub-menu" aria-labelledby="menu-item-dropdown-20360" role="menu" aria-label="Sub menu navigation list" >
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-20359" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20359 nav-item level-1"><a href="https://civmin.utoronto.ca/home/our-research/research/" class="dropdown-item" id="menu-item-link-20359">Research Themes</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-20357" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20357 nav-item level-1"><a href="https://civmin.utoronto.ca/home/our-research/institutes-centres/" class="dropdown-item" id="menu-item-link-20357">Institutes &#038; Centres</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-28539" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-28539 nav-item level-1"><a href="https://civmin.utoronto.ca/civmin-research-handbook/" class="dropdown-item" id="menu-item-link-28539">CivMin Research Handbook</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-20358" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20358 nav-item level-1"><a href="https://civmin.utoronto.ca/home/our-research/facilities/" class="dropdown-item" id="menu-item-link-20358">Research Facilities</a></li>
+</ul>
+</li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-20361" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown menu-item-20361 nav-item level-0"><a href="https://civmin.utoronto.ca/home/partner-with-us/" data-url="https://civmin.utoronto.ca/home/partner-with-us/" data-toggle="dropdown" role="button" class="dropdown-toggle nav-link" id="menu-item-dropdown-20361">Partner with Us</a>
+<ul class="sub-menu" aria-labelledby="menu-item-dropdown-20361" role="menu" aria-label="Sub menu navigation list" >
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-20362" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20362 nav-item level-1"><a href="https://civmin.utoronto.ca/home/partner-with-us/hire-an-engineering-student-or-graduate/" class="dropdown-item" id="menu-item-link-20362">Hire An Engineering Student Or Graduate</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-20363" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20363 nav-item level-1"><a href="https://civmin.utoronto.ca/home/partner-with-us/research-partnerships/" class="dropdown-item" id="menu-item-link-20363">Research Partnerships</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-28137" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28137 nav-item level-1"><a href="https://civmin.utoronto.ca/home/partner-with-us/industry-advisory-board/" class="dropdown-item" id="menu-item-link-28137">Industry Advisory Board (CivE)</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-34374" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-34374 nav-item level-1"><a href="https://civmin.utoronto.ca/home/partner-with-us/lmep-advisory-board/" class="dropdown-item" id="menu-item-link-34374">Lassonde Mineral Engineering Program Advisory Board</a></li>
+</ul>
+</li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-36335" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-36335 nav-item level-0"><a href="#" data-url="#" data-toggle="dropdown" role="button" class="dropdown-toggle nav-link" id="menu-item-dropdown-36335">Alumni</a>
+<ul class="sub-menu" aria-labelledby="menu-item-dropdown-36335" role="menu" aria-label="Sub menu navigation list" >
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-20365" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20365 nav-item level-1"><a href="https://civmin.utoronto.ca/home/alumni/get-connected/" class="dropdown-item" id="menu-item-link-20365">Get Connected</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-20366" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20366 nav-item level-1"><a href="https://civmin.utoronto.ca/home/alumni/foundations/" class="dropdown-item" id="menu-item-link-20366">foundations Magazine</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-20367" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-20367 nav-item level-1"><a href="https://secureca.imodules.com/s/731/form-blank/index.aspx?sid=731&#038;gid=1&#038;pgid=11544&#038;cid=19864" class="dropdown-item" id="menu-item-link-20367">Update Your Contact Information</a></li>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-20369" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-20369 nav-item level-1"><a href="https://www.camp1.ca/wordpress/" class="dropdown-item" id="menu-item-link-20369">Iron Ring</a></li>
+</ul>
+</li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-28324" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-28324 nav-item level-0"><a href="https://utoronto.sharepoint.com/sites/fase-CivMin/SitePages/Home.aspx?OR=Teams-HL&#038;CT=1643992347378&#038;sourceId=&#038;params=%22AppName%22:%22Teams-Desktop%22,%22AppVersion%22:%2228/22010300409%22" class="nav-link" id="menu-item-link-28324">CivMin Intranet</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-36192" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-36192 nav-item level-0"><a href="https://civmin.utoronto.ca/health-and-safety/" class="nav-link" id="menu-item-link-36192">Health &#038; Safety</a></li>
+</ul></nav>			</div>
+						<div class="social-nav-wrapper">
+			<div class="menu-social-container"><ul id="menu-social" class="social-nav"><li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-14159" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-14159 nav-item"><a href="https://www.facebook.com/civminutoronto/" class="nav-link"><span class="soc-icon-facebook"></span><span class="screen-reader-text">Facebook</span></span></a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-14160" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-14160 nav-item"><a href="https://twitter.com/civmin?lang=en" class="nav-link"><span class="soc-icon-twitter"></span><span class="screen-reader-text">Twitter/X</span></span></a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-14161" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-14161 nav-item"><a href="https://www.instagram.com/civmin/" class="nav-link"><span class="soc-icon-instagram"></span><span class="screen-reader-text">Instagram</span></span></a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-22663" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-22663 nav-item"><a href="https://www.linkedin.com/school/civmin/" class="nav-link"><span class="soc-icon-linkedin"></span><span class="screen-reader-text">LinkedIn</span></span></a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-24105" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-24105 nav-item"><a href="https://www.youtube.com/user/civmin" class="nav-link"><span class="soc-icon-youtube"></span><span class="screen-reader-text">Youtube</span></span></a></li>
+</ul></div>			</div>
+						<div class="desktop-hidden main-nav-top-bar" tabindex="-1" aria-hidden="true"></div>
+			<div class="desktop-hidden main-nav-search-bar" tabindex="-1" aria-hidden="true"></div>
+		</div>
+	</div>
+</header>
+
+<main class="primary content-area" id="content" tabindex="-1">
+	<div class="site-content content-wrap">
+		<div class="page-content">
+			<article id="post-27502" class="post-27502 page type-page status-publish hentry">
+
+	<section class="entry-content">
+		<div class="fl-builder-content fl-builder-content-27502 fl-builder-content-primary fl-builder-global-templates-locked" data-post-id="27502"><div class="fl-row fl-row-full-width fl-row-bg-photo fl-node-cev7w31kuip8 fl-row-default-height fl-row-align-center fl-row-bg-fixed" data-node="cev7w31kuip8">
+	<div class="fl-row-content-wrap">
+						<div class="fl-row-content fl-row-fixed-width fl-node-content">
+		
+<div class="fl-col-group fl-node-5a783hutsq1w" data-node="5a783hutsq1w">
+			<div class="fl-col fl-node-4hml7peod295 fl-col-has-cols" data-node="4hml7peod295">
+	<div class="fl-col-content fl-node-content">
+<div class="fl-col-group fl-node-g87srj6mtzek fl-col-group-nested" data-node="g87srj6mtzek">
+			<div class="fl-col fl-node-b6nx0zyut295" data-node="b6nx0zyut295">
+	<div class="fl-col-content fl-node-content"><div class="fl-module fl-module-rich-text fl-node-vxs2h0alpgm9" data-node="vxs2h0alpgm9">
+	<div class="fl-module-content fl-node-content">
+		<div class="fl-rich-text">
+	<h1 style="text-align: center;"><strong>Robot Made 2024</strong></h1>
+</div>
+	</div>
+</div>
+<div class="fl-module fl-module-button fl-node-i37d4gw1c6ap fl-animation fl-slide-in-down" data-node="i37d4gw1c6ap" data-animation-delay="0" data-animation-duration="2">
+	<div class="fl-module-content fl-node-content">
+		<div class="fl-button-wrap fl-button-width-auto fl-button-center fl-button-has-icon">
+			<a href="https://civmin.utoronto.ca/robot-made-2024/" target="_self" class="fl-button">
+					<i class="fl-button-icon fl-button-icon-before fas fa-mouse-pointer" aria-hidden="true"></i>
+						<span class="fl-button-text">Read full story, find videos and pictures</span>
+					</a>
+</div>
+	</div>
+</div>
+</div>
+</div>
+	</div>
+</div>
+</div>
+	</div>
+		</div>
+	</div>
+</div>
+<div class="fl-row fl-row-full-width fl-row-bg-color fl-node-7rfhqe8tv2sk fl-row-custom-height fl-row-align-center" data-node="7rfhqe8tv2sk">
+	<div class="fl-row-content-wrap">
+						<div class="fl-row-content fl-row-fixed-width fl-node-content">
+				</div>
+	</div>
+</div>
+<div class="fl-row fl-row-full-width fl-row-bg-none fl-node-rt0auzwcnmlg fl-row-custom-height fl-row-align-center" data-node="rt0auzwcnmlg">
+	<div class="fl-row-content-wrap">
+						<div class="fl-row-content fl-row-fixed-width fl-node-content">
+		
+<div class="fl-col-group fl-node-74xvrkqzgy58" data-node="74xvrkqzgy58">
+			<div class="fl-col fl-node-xynomwetujla" data-node="xynomwetujla">
+	<div class="fl-col-content fl-node-content"><div class="fl-module fl-module-heading fl-node-mr2ks5hldz1f" data-node="mr2ks5hldz1f">
+	<div class="fl-module-content fl-node-content">
+		<h2 class="fl-heading">
+		<a href="http://civmin.utoronto.ca/home/about-us/news/" title="CivMin News" target="_self">
+		<span class="fl-heading-text">CivMin News</span>
+		</a>
+	</h2>
+	</div>
+</div>
+<div class="fl-module fl-module-pp-content-grid fl-node-kdghnzjae6cv" data-node="kdghnzjae6cv">
+	<div class="fl-module-content fl-node-content">
+		<div class="pp-posts-wrapper">
+		
+	<div class="pp-content-posts" style="--items-count: 6;--column-xl: 3;--column-lg: 3;--column-md: 3;--column-sm: 2;">
+		<div class="pp-content-post-grid pp-equal-height pp-css-grid" itemscope="itemscope" itemtype="https://schema.org/Blog">
+			
+				
+<div class="pp-content-post pp-content-grid-post pp-grid-style-7 post-40651 post type-post status-publish format-standard has-post-thumbnail hentry category-news tag-aryan-rezaei-rad tag-collaborate tag-collaboration tag-design-for-manufacturing-and-assembly tag-dfma tag-digital-fabrication tag-robot-made tag-timber tag-timber-construction" itemscope itemtype="https://schema.org/BlogPosting" data-id="40651">
+
+	<meta itemscope itemprop="mainEntityOfPage" itemtype="https://schema.org/WebPage" itemid="http://40651" content="Robot Made 2024: Digital fabrication brings Engineering and Architecture students together" /><meta itemprop="datePublished" content="2024-09-10" /><meta itemprop="dateModified" content="2024-09-10" /><div itemprop="publisher" itemscope itemtype="https://schema.org/Organization"><meta itemprop="name" content="Department of Civil &amp; Mineral Engineering"></div><div itemscope itemprop="author" itemtype="https://schema.org/Person"><meta itemprop="url" content="https://civmin.utoronto.ca/author/phill-snelutoronto-ca/" /><meta itemprop="name" content="Phill Snel" /></div><div itemscope itemprop="image" itemtype="https://schema.org/ImageObject"><meta itemprop="url" content="https://civmin.utoronto.ca/wp-content/uploads/2024/09/IMG_5367.jpeg" /><meta itemprop="width" content="2048" /><meta itemprop="height" content="1536" /></div><div itemprop="interactionStatistic" itemscope itemtype="https://schema.org/InteractionCounter"><meta itemprop="interactionType" content="https://schema.org/CommentAction" /><meta itemprop="userInteractionCount" content="0" /></div>
+	
+					<a class="pp-post-link" href="https://civmin.utoronto.ca/robot-made-2024/" title="Robot Made 2024: Digital fabrication brings Engineering and Architecture students together"></a>
+		
+		
+		
+					<div class="pp-content-grid-image pp-post-image">
+    					<div class="pp-post-featured-img">
+				<div class="fl-photo fl-photo-crop-square fl-photo-align-center" itemscope itemtype="https://schema.org/ImageObject">
+	<div class="fl-photo-content fl-photo-img-jpeg">
+				<img fetchpriority="high" decoding="async" class="fl-photo-img wp-image-40817 size-large pp-post-img no-lazyload" src="https://civmin.utoronto.ca/wp-content/uploads/bb-plugin/cache/IMG_5367-1024x768-square-684ce97acea22f1ea7089becf9933a48-.jpeg" alt="Prof. Aryan Rezaei Rad with finished product from Robot Made: 2024. (Photo )" itemprop="image" data-no-lazy="1" height="768" width="1024" title="IMG_5367"  />
+					</div>
+	</div>
+			</div>
+		    
+			
+		
+			</div>
+		
+		<div class="pp-content-grid-inner pp-content-body clearfix">
+			
+			
+			<div class="pp-content-post-data">
+									<h3 class="pp-content-grid-title pp-post-title" itemprop="headline">
+														Robot Made 2024: Digital fabrication brings Engineering and Architecture students together											</h3>
+									
+								<div class="pp-content-post-meta pp-post-meta">
+											<span class="pp-content-post-author pp-post-author">
+By <a href="https://civmin.utoronto.ca/author/phill-snelutoronto-ca/"><span>Phill Snel</span></a></span>					
+																		<span>  |  </span>
+												<span class="pp-content-grid-date pp-post-date">
+			September 10, 2024	</span>					
+									</div>
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+					</div>
+
+			</div>
+
+<div class="pp-content-post pp-content-grid-post pp-post-2n pp-grid-style-7 post-40598 post type-post status-publish format-standard has-post-thumbnail hentry category-alumni category-news tag-alumni tag-alumnus tag-camp tag-gull-lake tag-phil-feldman tag-survey-camp" itemscope itemtype="https://schema.org/BlogPosting" data-id="40598">
+
+	<meta itemscope itemprop="mainEntityOfPage" itemtype="https://schema.org/WebPage" itemid="http://40598" content="Memories of Camp from 1957: Visiting Gull Lake" /><meta itemprop="datePublished" content="2024-09-04" /><meta itemprop="dateModified" content="2024-09-04" /><div itemprop="publisher" itemscope itemtype="https://schema.org/Organization"><meta itemprop="name" content="Department of Civil &amp; Mineral Engineering"></div><div itemscope itemprop="author" itemtype="https://schema.org/Person"><meta itemprop="url" content="https://civmin.utoronto.ca/author/phill-snelutoronto-ca/" /><meta itemprop="name" content="Phill Snel" /></div><div itemscope itemprop="image" itemtype="https://schema.org/ImageObject"><meta itemprop="url" content="https://civmin.utoronto.ca/wp-content/uploads/2024/09/Camp1-Group-MED-4L8A3072.jpg" /><meta itemprop="width" content="2500" /><meta itemprop="height" content="1667" /></div><div itemprop="interactionStatistic" itemscope itemtype="https://schema.org/InteractionCounter"><meta itemprop="interactionType" content="https://schema.org/CommentAction" /><meta itemprop="userInteractionCount" content="0" /></div>
+	
+					<a class="pp-post-link" href="https://civmin.utoronto.ca/memories-of-camp-visiting-gull-lake/" title="Memories of Camp from 1957: Visiting Gull Lake"></a>
+		
+		
+		
+					<div class="pp-content-grid-image pp-post-image">
+    					<div class="pp-post-featured-img">
+				<div class="fl-photo fl-photo-crop-square fl-photo-align-center" itemscope itemtype="https://schema.org/ImageObject">
+	<div class="fl-photo-content fl-photo-img-jpg">
+				<img loading="lazy" decoding="async" class="fl-photo-img wp-image-40649 size-large pp-post-img no-lazyload" src="https://civmin.utoronto.ca/wp-content/uploads/bb-plugin/cache/Camp1-Group-MED-4L8A3072-1024x683-square-70fc53679404e796cdc823745179e445-.jpg" alt="A group photo of students, professors, staff and guests at Camp 1 on August 14, 2024. (Photo by Phill Snel)" itemprop="image" data-no-lazy="1" height="683" width="1024" title="Camp1 Group MED -4L8A3072"  />
+					</div>
+	</div>
+			</div>
+		    
+			
+		
+			</div>
+		
+		<div class="pp-content-grid-inner pp-content-body clearfix">
+			
+			
+			<div class="pp-content-post-data">
+									<h3 class="pp-content-grid-title pp-post-title" itemprop="headline">
+														Memories of Camp from 1957: Visiting Gull Lake											</h3>
+									
+								<div class="pp-content-post-meta pp-post-meta">
+											<span class="pp-content-post-author pp-post-author">
+By <a href="https://civmin.utoronto.ca/author/phill-snelutoronto-ca/"><span>Phill Snel</span></a></span>					
+																		<span>  |  </span>
+												<span class="pp-content-grid-date pp-post-date">
+			September 4, 2024	</span>					
+									</div>
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+					</div>
+
+			</div>
+
+<div class="pp-content-post pp-content-grid-post pp-grid-style-7 post-40519 post type-post status-publish format-standard has-post-thumbnail hentry category-alumni category-faculty category-news tag-5t7 tag-class-of-5t7 tag-ken-selby tag-kenneth-selby" itemscope itemtype="https://schema.org/BlogPosting" data-id="40519">
+
+	<meta itemscope itemprop="mainEntityOfPage" itemtype="https://schema.org/WebPage" itemid="http://40519" content="CivMin remembers Professor Emeritus Ken Selby (1935-2024)" /><meta itemprop="datePublished" content="2024-08-29" /><meta itemprop="dateModified" content="2024-08-29" /><div itemprop="publisher" itemscope itemtype="https://schema.org/Organization"><meta itemprop="name" content="Department of Civil &amp; Mineral Engineering"></div><div itemscope itemprop="author" itemtype="https://schema.org/Person"><meta itemprop="url" content="https://civmin.utoronto.ca/author/phill-snelutoronto-ca/" /><meta itemprop="name" content="Phill Snel" /></div><div itemscope itemprop="image" itemtype="https://schema.org/ImageObject"><meta itemprop="url" content="https://civmin.utoronto.ca/wp-content/uploads/2024/08/Ken-Selby.jpeg" /><meta itemprop="width" content="187" /><meta itemprop="height" content="200" /></div><div itemprop="interactionStatistic" itemscope itemtype="https://schema.org/InteractionCounter"><meta itemprop="interactionType" content="https://schema.org/CommentAction" /><meta itemprop="userInteractionCount" content="0" /></div>
+	
+					<a class="pp-post-link" href="https://civmin.utoronto.ca/civmin-remembers-professor-emeritus-ken-selby-1935-2024/" title="CivMin remembers Professor Emeritus Ken Selby (1935-2024)"></a>
+		
+		
+		
+					<div class="pp-content-grid-image pp-post-image">
+    					<div class="pp-post-featured-img">
+				<div class="fl-photo fl-photo-crop-square fl-photo-align-center" itemscope itemtype="https://schema.org/ImageObject">
+	<div class="fl-photo-content fl-photo-img-jpeg">
+				<img loading="lazy" decoding="async" class="fl-photo-img wp-image-40520 size-full pp-post-img no-lazyload" src="https://civmin.utoronto.ca/wp-content/uploads/bb-plugin/cache/Ken-Selby-square-a4edead7248bde4abd8b482edb642129-.jpeg" alt="Ken Selby" itemprop="image" data-no-lazy="1" height="200" width="187" title="Ken Selby"  />
+					</div>
+	</div>
+			</div>
+		    
+			
+		
+			</div>
+		
+		<div class="pp-content-grid-inner pp-content-body clearfix">
+			
+			
+			<div class="pp-content-post-data">
+									<h3 class="pp-content-grid-title pp-post-title" itemprop="headline">
+														CivMin remembers Professor Emeritus Ken Selby (1935-2024)											</h3>
+									
+								<div class="pp-content-post-meta pp-post-meta">
+											<span class="pp-content-post-author pp-post-author">
+By <a href="https://civmin.utoronto.ca/author/phill-snelutoronto-ca/"><span>Phill Snel</span></a></span>					
+																		<span>  |  </span>
+												<span class="pp-content-grid-date pp-post-date">
+			August 29, 2024	</span>					
+									</div>
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+					</div>
+
+			</div>
+
+<div class="pp-content-post pp-content-grid-post pp-post-2n pp-grid-style-7 post-40480 post type-post status-publish format-standard has-post-thumbnail hentry category-news tag-camp tag-cme358 tag-cme358h1 tag-gull-lake tag-survey-camp" itemscope itemtype="https://schema.org/BlogPosting" data-id="40480">
+
+	<meta itemscope itemprop="mainEntityOfPage" itemtype="https://schema.org/WebPage" itemid="http://40480" content="Camp in full swing" /><meta itemprop="datePublished" content="2024-08-27" /><meta itemprop="dateModified" content="2024-08-29" /><div itemprop="publisher" itemscope itemtype="https://schema.org/Organization"><meta itemprop="name" content="Department of Civil &amp; Mineral Engineering"></div><div itemscope itemprop="author" itemtype="https://schema.org/Person"><meta itemprop="url" content="https://civmin.utoronto.ca/author/phill-snelutoronto-ca/" /><meta itemprop="name" content="Phill Snel" /></div><div itemscope itemprop="image" itemtype="https://schema.org/ImageObject"><meta itemprop="url" content="https://civmin.utoronto.ca/wp-content/uploads/2024/08/Camp-Highway-Curve-SQ_K8A8102.jpg" /><meta itemprop="width" content="1274" /><meta itemprop="height" content="1274" /></div><div itemprop="interactionStatistic" itemscope itemtype="https://schema.org/InteractionCounter"><meta itemprop="interactionType" content="https://schema.org/CommentAction" /><meta itemprop="userInteractionCount" content="0" /></div>
+	
+					<a class="pp-post-link" href="https://civmin.utoronto.ca/camp-in-full-swing/" title="Camp in full swing"></a>
+		
+		
+		
+					<div class="pp-content-grid-image pp-post-image">
+    					<div class="pp-post-featured-img">
+				<div class="fl-photo fl-photo-crop-square fl-photo-align-center" itemscope itemtype="https://schema.org/ImageObject">
+	<div class="fl-photo-content fl-photo-img-jpg">
+				<img loading="lazy" decoding="async" class="fl-photo-img wp-image-40508 size-large pp-post-img no-lazyload" src="https://civmin.utoronto.ca/wp-content/uploads/bb-plugin/cache/Camp-Highway-Curve-SQ_K8A8102-1024x1024-square-8cd6c18b9d23c123a7d305c6ddcdec54-.jpg" alt="GULL LAKE (near Minden, Ontario), AUGUST 12-14, 2024 — UNIVERSITY OF TORONTO CAMP — Images from U of T Camp on Gull Lake, near Minden, Ontario from August 12 to 14, 2024. Department of Civil &amp;amp; Mineral Engineering students take the course, CME358 Civil And Mineral Practicals (CAMP) every August. The course was previously known as Survey Camp.  (Photo by Phill Snel, CivMin/University of Toronto) *some images by Galina Nikitina too" itemprop="image" data-no-lazy="1" height="1024" width="1024" title="Camp Highway Curve - SQ_K8A8102"  />
+					</div>
+	</div>
+			</div>
+		    
+			
+		
+			</div>
+		
+		<div class="pp-content-grid-inner pp-content-body clearfix">
+			
+			
+			<div class="pp-content-post-data">
+									<h3 class="pp-content-grid-title pp-post-title" itemprop="headline">
+														Camp in full swing											</h3>
+									
+								<div class="pp-content-post-meta pp-post-meta">
+											<span class="pp-content-post-author pp-post-author">
+By <a href="https://civmin.utoronto.ca/author/phill-snelutoronto-ca/"><span>Phill Snel</span></a></span>					
+																		<span>  |  </span>
+												<span class="pp-content-grid-date pp-post-date">
+			August 27, 2024	</span>					
+									</div>
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+					</div>
+
+			</div>
+
+<div class="pp-content-post pp-content-grid-post pp-grid-style-7 post-40461 post type-post status-publish format-standard has-post-thumbnail hentry category-faculty category-news tag-connaught tag-connaught-new-researcher-awards tag-mohammed-basheer tag-sarah-haines" itemscope itemtype="https://schema.org/BlogPosting" data-id="40461">
+
+	<meta itemscope itemprop="mainEntityOfPage" itemtype="https://schema.org/WebPage" itemid="http://40461" content="CivMin professors receive Connaught New Researcher Awards" /><meta itemprop="datePublished" content="2024-08-23" /><meta itemprop="dateModified" content="2024-08-23" /><div itemprop="publisher" itemscope itemtype="https://schema.org/Organization"><meta itemprop="name" content="Department of Civil &amp; Mineral Engineering"></div><div itemscope itemprop="author" itemtype="https://schema.org/Person"><meta itemprop="url" content="https://civmin.utoronto.ca/author/phill-snelutoronto-ca/" /><meta itemprop="name" content="Phill Snel" /></div><div itemscope itemprop="image" itemtype="https://schema.org/ImageObject"><meta itemprop="url" content="https://civmin.utoronto.ca/wp-content/uploads/2024/08/Haines-Basheer-sq-copy-2.jpg" /><meta itemprop="width" content="1101" /><meta itemprop="height" content="1101" /></div><div itemprop="interactionStatistic" itemscope itemtype="https://schema.org/InteractionCounter"><meta itemprop="interactionType" content="https://schema.org/CommentAction" /><meta itemprop="userInteractionCount" content="0" /></div>
+	
+					<a class="pp-post-link" href="https://civmin.utoronto.ca/civmin-professors-receive-connaught-new-researcher-awards/" title="CivMin professors receive Connaught New Researcher Awards"></a>
+		
+		
+		
+					<div class="pp-content-grid-image pp-post-image">
+    					<div class="pp-post-featured-img">
+				<div class="fl-photo fl-photo-crop-square fl-photo-align-center" itemscope itemtype="https://schema.org/ImageObject">
+	<div class="fl-photo-content fl-photo-img-jpg">
+				<img loading="lazy" decoding="async" class="fl-photo-img wp-image-40470 size-large pp-post-img no-lazyload" src="https://civmin.utoronto.ca/wp-content/uploads/bb-plugin/cache/Haines-Basheer-sq-copy-2-1024x1024-square-88505300a4e0249ceda5238a313296da-.jpg" alt="TORONTO, ONTARIO, CANADA; SEPTEMBER 28, 2023  — CIVMIN NEW PROFESSOR— An image of CivMin’s newest professor, Mohammed Basheer, during his first visit to U of T on Thursday, September 28, 2023.  (Photo by Phill Snel / Department of Civil &amp;amp; Mineral Engineering, University of Toronto)" itemprop="image" data-no-lazy="1" height="1024" width="1024" title="Haines &amp; Basheer-sq copy"  />
+					</div>
+	</div>
+			</div>
+		    
+			
+		
+			</div>
+		
+		<div class="pp-content-grid-inner pp-content-body clearfix">
+			
+			
+			<div class="pp-content-post-data">
+									<h3 class="pp-content-grid-title pp-post-title" itemprop="headline">
+														CivMin professors receive Connaught New Researcher Awards											</h3>
+									
+								<div class="pp-content-post-meta pp-post-meta">
+											<span class="pp-content-post-author pp-post-author">
+By <a href="https://civmin.utoronto.ca/author/phill-snelutoronto-ca/"><span>Phill Snel</span></a></span>					
+																		<span>  |  </span>
+												<span class="pp-content-grid-date pp-post-date">
+			August 23, 2024	</span>					
+									</div>
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+					</div>
+
+			</div>
+
+<div class="pp-content-post pp-content-grid-post pp-post-2n pp-grid-style-7 post-40308 post type-post status-publish format-standard has-post-thumbnail hentry category-news tag-civmin tag-evan-bentz tag-undergraduate-experience tag-vice-dean-undergraduate" itemscope itemtype="https://schema.org/BlogPosting" data-id="40308">
+
+	<meta itemscope itemprop="mainEntityOfPage" itemtype="https://schema.org/WebPage" itemid="http://40308" content="Training for the future: Meet Vice-Dean, Undergraduate Evan Bentz" /><meta itemprop="datePublished" content="2024-08-16" /><meta itemprop="dateModified" content="2024-08-16" /><div itemprop="publisher" itemscope itemtype="https://schema.org/Organization"><meta itemprop="name" content="Department of Civil &amp; Mineral Engineering"></div><div itemscope itemprop="author" itemtype="https://schema.org/Person"><meta itemprop="url" content="https://civmin.utoronto.ca/author/galina-nikitina/" /><meta itemprop="name" content="Galina Nikitina" /></div><div itemscope itemprop="image" itemtype="https://schema.org/ImageObject"><meta itemprop="url" content="https://civmin.utoronto.ca/wp-content/uploads/2024/08/Screen-Shot-2024-08-16-at-2.54.27-PM.png" /><meta itemprop="width" content="1016" /><meta itemprop="height" content="710" /></div><div itemprop="interactionStatistic" itemscope itemtype="https://schema.org/InteractionCounter"><meta itemprop="interactionType" content="https://schema.org/CommentAction" /><meta itemprop="userInteractionCount" content="0" /></div>
+	
+					<a class="pp-post-link" href="https://civmin.utoronto.ca/training-for-the-future-meet-vice-dean-undergraduate-evan-bentz/" title="Training for the future: Meet Vice-Dean, Undergraduate Evan Bentz"></a>
+		
+		
+		
+					<div class="pp-content-grid-image pp-post-image">
+    					<div class="pp-post-featured-img">
+				<div class="fl-photo fl-photo-crop-square fl-photo-align-center" itemscope itemtype="https://schema.org/ImageObject">
+	<div class="fl-photo-content fl-photo-img-png">
+				<img loading="lazy" decoding="async" class="fl-photo-img wp-image-40309 size-full pp-post-img no-lazyload" src="https://civmin.utoronto.ca/wp-content/uploads/bb-plugin/cache/Screen-Shot-2024-08-16-at-2.54.27-PM-square-c7bf9593c3c53f680cac5b5b33864167-.png" alt="Screen Shot 2024-08-16 at 2.54.27 PM" itemprop="image" data-no-lazy="1" height="710" width="1016" title="Screen Shot 2024-08-16 at 2.54.27 PM"  />
+					</div>
+	</div>
+			</div>
+		    
+			
+		
+			</div>
+		
+		<div class="pp-content-grid-inner pp-content-body clearfix">
+			
+			
+			<div class="pp-content-post-data">
+									<h3 class="pp-content-grid-title pp-post-title" itemprop="headline">
+														Training for the future: Meet Vice-Dean, Undergraduate Evan Bentz											</h3>
+									
+								<div class="pp-content-post-meta pp-post-meta">
+											<span class="pp-content-post-author pp-post-author">
+By <a href="https://civmin.utoronto.ca/author/galina-nikitina/"><span>Galina Nikitina</span></a></span>					
+																		<span>  |  </span>
+												<span class="pp-content-grid-date pp-post-date">
+			August 16, 2024	</span>					
+									</div>
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+					</div>
+
+			</div>
+
+				
+					</div>
+
+		<div class="fl-clear"></div>
+
+		
+					<div class="pp-content-grid-pagination fl-builder-pagination">
+							</div>
+
+										
+		</div><!-- .pp-content-posts -->
+	
+	</div>
+
+	</div>
+</div>
+</div>
+</div>
+			<div class="fl-col fl-node-pxa3jebm5q8s fl-col-small" data-node="pxa3jebm5q8s">
+	<div class="fl-col-content fl-node-content"><div class="fl-module fl-module-heading fl-node-yd5lkpc3q6gw" data-node="yd5lkpc3q6gw">
+	<div class="fl-module-content fl-node-content">
+		<h2 class="fl-heading">
+		<span class="fl-heading-text">Upcoming Events</span>
+	</h2>
+	</div>
+</div>
+<div class="fl-module fl-module-widget fl-node-81uslkv6jfpm" data-node="81uslkv6jfpm">
+	<div class="fl-module-content fl-node-content">
+		<div class="fl-widget">
+<div  class="tribe-compatibility-container" >
+	<div
+		 class="tribe-common tribe-events tribe-events-view tribe-events-view--widget-events-list tribe-events-widget" 		data-js="tribe-events-view"
+		data-view-rest-url="https://civmin.utoronto.ca/wp-json/tribe/views/v2/html"
+		data-view-manage-url="1"
+							data-view-breakpoint-pointer="ace1e347-068d-4216-ba5d-368d3f82e2de"
+			>
+		<div class="tribe-events-widget-events-list">
+
+			<script type="application/ld+json">
+[{"@context":"http://schema.org","@type":"Event","name":"MASc thesis presentation by Jack Tattersall: Quantitative Method for Assessing the Quality of Intermodal/Interagency Connections and Service Integration at Suburban Rail Stations (","description":"&lt;p&gt;Quantitative Method for Assessing the Quality of Intermodal/Interagency Connections and Service Integration at Suburban Rail Stations (MASc thesis presentation) Candidate: Jack Tattersall Supervisor: Professor Amer Shalaby Friday, September 13, 2024\u00a0at [&hellip;]&lt;/p&gt;\\n","url":"https://civmin.utoronto.ca/event/masc-thesis-presentation-by-jack-tattersall-quantitative-method-for-assessing-the-quality-of-intermodal-interagency-connections-and-service-integration-at-suburban-rail-stations/","eventAttendanceMode":"https://schema.org/OfflineEventAttendanceMode","eventStatus":"https://schema.org/EventScheduled","startDate":"2024-09-13T11:00:00-04:00","endDate":"2024-09-13T12:00:00-04:00","performer":"Organization"},{"@context":"http://schema.org","@type":"Event","name":"GHD &#8211; Info session for students","description":"&lt;p&gt;Info session: GHD Friday, September 13, 2024 at noon GB202, Galbraith Building Pizza and drinks provided. RSVP FORM\u00a0(UTORid required) (for dietary needs and numbers)&lt;/p&gt;\\n","url":"https://civmin.utoronto.ca/event/ghd-info-session-for-students/","eventAttendanceMode":"https://schema.org/OfflineEventAttendanceMode","eventStatus":"https://schema.org/EventScheduled","startDate":"2024-09-13T12:00:00-04:00","endDate":"2024-09-13T14:00:00-04:00","performer":"Organization"},{"@context":"http://schema.org","@type":"Event","name":"Indian Horse &#8211; film screening","description":"&lt;p&gt;In honour of National Day for Truth and Reconciliation, experience community, culture, and connection at a\u00a0screening of the award-winning film\u00a0Indian Horse\u00a0(2017) on Monday September 16, brought to you by the [&hellip;]&lt;/p&gt;\\n","url":"https://civmin.utoronto.ca/event/indian-horse-film-screening/","eventAttendanceMode":"https://schema.org/OfflineEventAttendanceMode","eventStatus":"https://schema.org/EventScheduled","startDate":"2024-09-16T17:30:00-04:00","endDate":"2024-09-16T20:30:00-04:00","performer":"Organization"},{"@context":"http://schema.org","@type":"Event","name":"Suncor Energy &#8211; info session for students","description":"&lt;p&gt;Info session: Suncor Energy Tuesday, September 17, 2024 \u00a0at 5:30 p.m. GB117, Galbraith Building Pizza and drinks provided. RSVP FORM\u00a0\u00a0\u00a0(UTORid required) (for dietary needs and numbers) We\\'re reaching to especially [&hellip;]&lt;/p&gt;\\n","url":"https://civmin.utoronto.ca/event/suncor-energy-info-session-for-students/","eventAttendanceMode":"https://schema.org/OfflineEventAttendanceMode","eventStatus":"https://schema.org/EventScheduled","startDate":"2024-09-17T17:00:00-04:00","endDate":"2024-09-17T19:00:00-04:00","performer":"Organization"},{"@context":"http://schema.org","@type":"Event","name":"PhD Departmental Defence by Luca Markus: Parametric Investigation of Efficiency in Post-Tensioned Concrete Bridges","description":"&lt;p&gt;Parametric Investigation of Efficiency in Post-Tensioned Concrete Bridges (PhD Departmental Defence) Candidate: Luca Markus Supervisor: Professor Paul Gauvreau Friday, September 27, 2024 at\u00a02 p.m. Join the Teams meeting\u00a0 \u00a0\u00a0Meeting ID:\u00a0267 [&hellip;]&lt;/p&gt;\\n","url":"https://civmin.utoronto.ca/event/phd-departmental-defence-by-luca-markus-parametric-investigation-of-efficiency-in-post-tensioned-concrete-bridges/","eventAttendanceMode":"https://schema.org/OfflineEventAttendanceMode","eventStatus":"https://schema.org/EventScheduled","startDate":"2024-09-27T14:00:00-04:00","endDate":"2024-09-27T15:00:00-04:00","performer":"Organization"}]
+</script>
+			<script data-js="tribe-events-view-data" type="application/json">
+	{"slug":"widget-events-list","prev_url":"","next_url":"https:\/\/civmin.utoronto.ca\/?post_type=tribe_events&eventDisplay=widget-events-list&paged=2","view_class":"Tribe\\Events\\Views\\V2\\Views\\Widgets\\Widget_List_View","view_slug":"widget-events-list","view_label":"View","view":null,"should_manage_url":true,"id":null,"alias-slugs":null,"title":"Department of Civil & Mineral Engineering","limit":"5","no_upcoming_events":false,"featured_events_only":false,"jsonld_enable":true,"tribe_is_list_widget":false,"admin_fields":{"title":{"label":"Title:","type":"text","classes":"","dependency":"","id":"widget-tribe-widget-events-list--1-title","name":"widget-tribe-widget-events-list[-1][title]","options":[],"placeholder":"","value":null},"limit":{"label":"Show:","type":"number","default":5,"min":1,"max":10,"step":1,"classes":"","dependency":"","id":"widget-tribe-widget-events-list--1-limit","name":"widget-tribe-widget-events-list[-1][limit]","options":[],"placeholder":"","value":null},"no_upcoming_events":{"label":"Hide this widget if there are no upcoming events.","type":"checkbox","classes":"","dependency":"","id":"widget-tribe-widget-events-list--1-no_upcoming_events","name":"widget-tribe-widget-events-list[-1][no_upcoming_events]","options":[],"placeholder":"","value":null},"featured_events_only":{"label":"Limit to featured events only","type":"checkbox","classes":"","dependency":"","id":"widget-tribe-widget-events-list--1-featured_events_only","name":"widget-tribe-widget-events-list[-1][featured_events_only]","options":[],"placeholder":"","value":null},"jsonld_enable":{"label":"Generate JSON-LD data","type":"checkbox","classes":"","dependency":"","id":"widget-tribe-widget-events-list--1-jsonld_enable","name":"widget-tribe-widget-events-list[-1][jsonld_enable]","options":[],"placeholder":"","value":null}},"events":[40422,40305,40475,40662,40852],"url":"https:\/\/civmin.utoronto.ca\/?post_type=tribe_events&eventDisplay=widget-events-list","url_event_date":false,"bar":{"keyword":"","date":""},"today":"2024-09-13 00:00:00","now":"2024-09-13 00:54:07","rest_url":"https:\/\/civmin.utoronto.ca\/wp-json\/tribe\/views\/v2\/html","rest_method":"POST","rest_nonce":"","today_url":"https:\/\/civmin.utoronto.ca\/?post_type=tribe_events&eventDisplay=widget-events-list","today_title":"Click to select today's date","today_label":"Today","prev_label":"","next_label":"","date_formats":{"compact":"m\/d\/Y","month_and_year_compact":"m\/Y","month_and_year":"F Y","time_range_separator":" - ","date_time_separator":" @ "},"messages":[],"start_of_week":"0","header_title":"","header_title_element":"h1","content_title":"","breadcrumbs":[],"before_events":"","after_events":"\n<!--\nThis calendar is powered by The Events Calendar.\nhttp:\/\/evnt.is\/18wn\n-->\n","display_events_bar":false,"disable_event_search":true,"live_refresh":true,"ical":{"display_link":true,"link":{"url":"https:\/\/civmin.utoronto.ca\/?post_type=tribe_events&#038;eventDisplay=widget-events-list&#038;ical=1","text":"Export Events","title":"Use this to share calendar data with Google Calendar, Apple iCal and other compatible apps"}},"container_classes":["tribe-common","tribe-events","tribe-events-view","tribe-events-view--widget-events-list","tribe-events-widget"],"container_data":[],"is_past":false,"breakpoints":{"xsmall":500,"medium":768,"full":960},"breakpoint_pointer":"ace1e347-068d-4216-ba5d-368d3f82e2de","is_initial_load":true,"public_views":{"list":{"view_class":"Tribe\\Events\\Views\\V2\\Views\\List_View","view_url":"https:\/\/civmin.utoronto.ca\/events\/list\/","view_label":"List"},"month":{"view_class":"Tribe\\Events\\Views\\V2\\Views\\Month_View","view_url":"https:\/\/civmin.utoronto.ca\/events\/month\/","view_label":"Month"}},"show_latest_past":false,"compatibility_classes":["tribe-compatibility-container"],"view_more_text":"View Calendar","view_more_title":"View more events.","view_more_link":"https:\/\/civmin.utoronto.ca\/events\/","widget_title":"","hide_if_no_upcoming_events":false,"display":[],"subscribe_links":{"gcal":{"label":"Google Calendar","single_label":"Add to Google Calendar","visible":true,"block_slug":"hasGoogleCalendar"},"ical":{"label":"iCalendar","single_label":"Add to iCalendar","visible":true,"block_slug":"hasiCal"},"outlook-365":{"label":"Outlook 365","single_label":"Outlook 365","visible":true,"block_slug":"hasOutlook365"},"outlook-live":{"label":"Outlook Live","single_label":"Outlook Live","visible":true,"block_slug":"hasOutlookLive"},"ics":{"label":"Export .ics file","single_label":"Export .ics file","visible":true,"block_slug":null},"outlook-ics":{"label":"Export Outlook .ics file","single_label":"Export Outlook .ics file","visible":true,"block_slug":null}},"_context":{"slug":"widget-events-list"}}</script>
+
+			
+			
+				<div class="tribe-events-widget-events-list__events">
+											<div  class="tribe-common-g-row tribe-events-widget-events-list__event-row" >
+
+	<div class="tribe-events-widget-events-list__event-date-tag tribe-common-g-col">
+	<time class="tribe-events-widget-events-list__event-date-tag-datetime" datetime="2024-09-13">
+		<span class="tribe-events-widget-events-list__event-date-tag-month">
+			Sep		</span>
+		<span class="tribe-events-widget-events-list__event-date-tag-daynum tribe-common-h2 tribe-common-h4--min-medium">
+			13		</span>
+	</time>
+</div>
+
+	<div class="tribe-events-widget-events-list__event-wrapper tribe-common-g-col">
+		<article  class="tribe-events-widget-events-list__event post-40422 tribe_events type-tribe_events status-publish hentry tribe_events_cat-events tribe_events_cat-featured" >
+			<div class="tribe-events-widget-events-list__event-details">
+
+				<header class="tribe-events-widget-events-list__event-header">
+					<div class="tribe-events-widget-events-list__event-datetime-wrapper tribe-common-b2 tribe-common-b3--min-medium">
+		<time class="tribe-events-widget-events-list__event-datetime" datetime="2024-09-13">
+		<span class="tribe-event-date-start">11:00 am</span> - <span class="tribe-event-time">12:00 pm</span>	</time>
+	</div>
+					<h3 class="tribe-events-widget-events-list__event-title tribe-common-h7">
+	<a
+		href="https://civmin.utoronto.ca/event/masc-thesis-presentation-by-jack-tattersall-quantitative-method-for-assessing-the-quality-of-intermodal-interagency-connections-and-service-integration-at-suburban-rail-stations/"
+		title="MASc thesis presentation by Jack Tattersall: Quantitative Method for Assessing the Quality of Intermodal/Interagency Connections and Service Integration at Suburban Rail Stations ("
+		rel="bookmark"
+		class="tribe-events-widget-events-list__event-title-link tribe-common-anchor-thin"
+	>
+		MASc thesis presentation by Jack Tattersall: Quantitative Method for Assessing the Quality of Intermodal/Interagency Connections and Service Integration at Suburban Rail Stations (	</a>
+</h3>
+				</header>
+
+				
+			</div>
+		</article>
+	</div>
+
+</div>
+											<div  class="tribe-common-g-row tribe-events-widget-events-list__event-row" >
+
+	<div class="tribe-events-widget-events-list__event-date-tag tribe-common-g-col">
+	<time class="tribe-events-widget-events-list__event-date-tag-datetime" datetime="2024-09-13">
+		<span class="tribe-events-widget-events-list__event-date-tag-month">
+			Sep		</span>
+		<span class="tribe-events-widget-events-list__event-date-tag-daynum tribe-common-h2 tribe-common-h4--min-medium">
+			13		</span>
+	</time>
+</div>
+
+	<div class="tribe-events-widget-events-list__event-wrapper tribe-common-g-col">
+		<article  class="tribe-events-widget-events-list__event post-40305 tribe_events type-tribe_events status-publish hentry tribe_events_cat-events tribe_events_cat-featured" >
+			<div class="tribe-events-widget-events-list__event-details">
+
+				<header class="tribe-events-widget-events-list__event-header">
+					<div class="tribe-events-widget-events-list__event-datetime-wrapper tribe-common-b2 tribe-common-b3--min-medium">
+		<time class="tribe-events-widget-events-list__event-datetime" datetime="2024-09-13">
+		<span class="tribe-event-date-start">12:00 pm</span> - <span class="tribe-event-time">2:00 pm</span>	</time>
+	</div>
+					<h3 class="tribe-events-widget-events-list__event-title tribe-common-h7">
+	<a
+		href="https://civmin.utoronto.ca/event/ghd-info-session-for-students/"
+		title="GHD &#8211; Info session for students"
+		rel="bookmark"
+		class="tribe-events-widget-events-list__event-title-link tribe-common-anchor-thin"
+	>
+		GHD &#8211; Info session for students	</a>
+</h3>
+				</header>
+
+				
+			</div>
+		</article>
+	</div>
+
+</div>
+											<div  class="tribe-common-g-row tribe-events-widget-events-list__event-row" >
+
+	<div class="tribe-events-widget-events-list__event-date-tag tribe-common-g-col">
+	<time class="tribe-events-widget-events-list__event-date-tag-datetime" datetime="2024-09-16">
+		<span class="tribe-events-widget-events-list__event-date-tag-month">
+			Sep		</span>
+		<span class="tribe-events-widget-events-list__event-date-tag-daynum tribe-common-h2 tribe-common-h4--min-medium">
+			16		</span>
+	</time>
+</div>
+
+	<div class="tribe-events-widget-events-list__event-wrapper tribe-common-g-col">
+		<article  class="tribe-events-widget-events-list__event post-40475 tribe_events type-tribe_events status-publish hentry tribe_events_cat-events tribe_events_cat-featured" >
+			<div class="tribe-events-widget-events-list__event-details">
+
+				<header class="tribe-events-widget-events-list__event-header">
+					<div class="tribe-events-widget-events-list__event-datetime-wrapper tribe-common-b2 tribe-common-b3--min-medium">
+		<time class="tribe-events-widget-events-list__event-datetime" datetime="2024-09-16">
+		<span class="tribe-event-date-start">5:30 pm</span> - <span class="tribe-event-time">8:30 pm</span>	</time>
+	</div>
+					<h3 class="tribe-events-widget-events-list__event-title tribe-common-h7">
+	<a
+		href="https://civmin.utoronto.ca/event/indian-horse-film-screening/"
+		title="Indian Horse &#8211; film screening"
+		rel="bookmark"
+		class="tribe-events-widget-events-list__event-title-link tribe-common-anchor-thin"
+	>
+		Indian Horse &#8211; film screening	</a>
+</h3>
+				</header>
+
+				
+			</div>
+		</article>
+	</div>
+
+</div>
+											<div  class="tribe-common-g-row tribe-events-widget-events-list__event-row" >
+
+	<div class="tribe-events-widget-events-list__event-date-tag tribe-common-g-col">
+	<time class="tribe-events-widget-events-list__event-date-tag-datetime" datetime="2024-09-17">
+		<span class="tribe-events-widget-events-list__event-date-tag-month">
+			Sep		</span>
+		<span class="tribe-events-widget-events-list__event-date-tag-daynum tribe-common-h2 tribe-common-h4--min-medium">
+			17		</span>
+	</time>
+</div>
+
+	<div class="tribe-events-widget-events-list__event-wrapper tribe-common-g-col">
+		<article  class="tribe-events-widget-events-list__event post-40662 tribe_events type-tribe_events status-publish hentry tribe_events_cat-events tribe_events_cat-featured" >
+			<div class="tribe-events-widget-events-list__event-details">
+
+				<header class="tribe-events-widget-events-list__event-header">
+					<div class="tribe-events-widget-events-list__event-datetime-wrapper tribe-common-b2 tribe-common-b3--min-medium">
+		<time class="tribe-events-widget-events-list__event-datetime" datetime="2024-09-17">
+		<span class="tribe-event-date-start">5:00 pm</span> - <span class="tribe-event-time">7:00 pm</span>	</time>
+	</div>
+					<h3 class="tribe-events-widget-events-list__event-title tribe-common-h7">
+	<a
+		href="https://civmin.utoronto.ca/event/suncor-energy-info-session-for-students/"
+		title="Suncor Energy &#8211; info session for students"
+		rel="bookmark"
+		class="tribe-events-widget-events-list__event-title-link tribe-common-anchor-thin"
+	>
+		Suncor Energy &#8211; info session for students	</a>
+</h3>
+				</header>
+
+				
+			</div>
+		</article>
+	</div>
+
+</div>
+											<div  class="tribe-common-g-row tribe-events-widget-events-list__event-row" >
+
+	<div class="tribe-events-widget-events-list__event-date-tag tribe-common-g-col">
+	<time class="tribe-events-widget-events-list__event-date-tag-datetime" datetime="2024-09-27">
+		<span class="tribe-events-widget-events-list__event-date-tag-month">
+			Sep		</span>
+		<span class="tribe-events-widget-events-list__event-date-tag-daynum tribe-common-h2 tribe-common-h4--min-medium">
+			27		</span>
+	</time>
+</div>
+
+	<div class="tribe-events-widget-events-list__event-wrapper tribe-common-g-col">
+		<article  class="tribe-events-widget-events-list__event post-40852 tribe_events type-tribe_events status-publish hentry tag-luca-markus tribe_events_cat-events tribe_events_cat-featured" >
+			<div class="tribe-events-widget-events-list__event-details">
+
+				<header class="tribe-events-widget-events-list__event-header">
+					<div class="tribe-events-widget-events-list__event-datetime-wrapper tribe-common-b2 tribe-common-b3--min-medium">
+		<time class="tribe-events-widget-events-list__event-datetime" datetime="2024-09-27">
+		<span class="tribe-event-date-start">2:00 pm</span> - <span class="tribe-event-time">3:00 pm</span>	</time>
+	</div>
+					<h3 class="tribe-events-widget-events-list__event-title tribe-common-h7">
+	<a
+		href="https://civmin.utoronto.ca/event/phd-departmental-defence-by-luca-markus-parametric-investigation-of-efficiency-in-post-tensioned-concrete-bridges/"
+		title="PhD Departmental Defence by Luca Markus: Parametric Investigation of Efficiency in Post-Tensioned Concrete Bridges"
+		rel="bookmark"
+		class="tribe-events-widget-events-list__event-title-link tribe-common-anchor-thin"
+	>
+		PhD Departmental Defence by Luca Markus: Parametric Investigation of Efficiency in Post-Tensioned Concrete Bridges	</a>
+</h3>
+				</header>
+
+				
+			</div>
+		</article>
+	</div>
+
+</div>
+									</div>
+
+				<div class="tribe-events-widget-events-list__view-more tribe-common-b1 tribe-common-b2--min-medium">
+	<a
+		href="https://civmin.utoronto.ca/events/"
+		class="tribe-events-widget-events-list__view-more-link tribe-common-anchor-thin"
+		title="View more events."
+	>
+		View Calendar	</a>
+</div>
+
+					</div>
+	</div>
+</div>
+<script class="tribe-events-breakpoints">
+	( function () {
+		var completed = false;
+
+		function initBreakpoints() {
+			if ( completed ) {
+				// This was fired already and completed no need to attach to the event listener.
+				document.removeEventListener( 'DOMContentLoaded', initBreakpoints );
+				return;
+			}
+
+			if ( 'undefined' === typeof window.tribe ) {
+				return;
+			}
+
+			if ( 'undefined' === typeof window.tribe.events ) {
+				return;
+			}
+
+			if ( 'undefined' === typeof window.tribe.events.views ) {
+				return;
+			}
+
+			if ( 'undefined' === typeof window.tribe.events.views.breakpoints ) {
+				return;
+			}
+
+			if ( 'function' !== typeof (window.tribe.events.views.breakpoints.setup) ) {
+				return;
+			}
+
+			var container = document.querySelectorAll( '[data-view-breakpoint-pointer="ace1e347-068d-4216-ba5d-368d3f82e2de"]' );
+			if ( ! container ) {
+				return;
+			}
+
+			window.tribe.events.views.breakpoints.setup( container );
+			completed = true;
+			// This was fired already and completed no need to attach to the event listener.
+			document.removeEventListener( 'DOMContentLoaded', initBreakpoints );
+		}
+
+		// Try to init the breakpoints right away.
+		initBreakpoints();
+		document.addEventListener( 'DOMContentLoaded', initBreakpoints );
+	})();
+</script>
+<script data-js='tribe-events-view-nonce-data' type='application/json'>{"_tec_view_rest_nonce_primary":"dc84f080a1","_tec_view_rest_nonce_secondary":""}</script></div>
+	</div>
+</div>
+<div class="fl-module fl-module-heading fl-node-ftepuc7w83m2" data-node="ftepuc7w83m2">
+	<div class="fl-module-content fl-node-content">
+		<h2 class="fl-heading">
+		<a href="https://civmin.utoronto.ca/page/in-the-news/" title="CivMin Experts In The News" target="_self">
+		<span class="fl-heading-text">CivMin Experts In The News</span>
+		</a>
+	</h2>
+	</div>
+</div>
+<div class="fl-module fl-module-pp-content-grid fl-node-q50lrmh1sian" data-node="q50lrmh1sian">
+	<div class="fl-module-content fl-node-content">
+		<div class="pp-posts-wrapper">
+		
+	<div class="pp-content-posts" style="--items-count: 5;--column-xl: 1;--column-lg: 1;--column-md: 1;--column-sm: 1;">
+		<div class="pp-content-post-grid pp-masonry-active clearfix" itemscope="itemscope" itemtype="https://schema.org/Blog">
+			
+				
+<div class="pp-content-post pp-content-grid-post pp-grid-default post-40797 post type-post status-publish format-standard hentry category-in-the-news tag-doug-hooton tag-douglas-hooton tag-r-douglas-hooton" itemscope itemtype="https://schema.org/BlogPosting" data-id="40797">
+
+	<meta itemscope itemprop="mainEntityOfPage" itemtype="https://schema.org/WebPage" itemid="http://40797" content="Prof. Emeritus Doug Hooton | Cementing change: Shrinking the eco footprint of one of the world’s most widely used materials" /><meta itemprop="datePublished" content="2024-09-09" /><meta itemprop="dateModified" content="2024-09-09" /><div itemprop="publisher" itemscope itemtype="https://schema.org/Organization"><meta itemprop="name" content="Department of Civil &amp; Mineral Engineering"></div><div itemscope itemprop="author" itemtype="https://schema.org/Person"><meta itemprop="url" content="https://civmin.utoronto.ca/author/phill-snelutoronto-ca/" /><meta itemprop="name" content="Phill Snel" /></div><div itemprop="interactionStatistic" itemscope itemtype="https://schema.org/InteractionCounter"><meta itemprop="interactionType" content="https://schema.org/CommentAction" /><meta itemprop="userInteractionCount" content="0" /></div>
+	
+		
+		
+		
+		
+		<div class="pp-content-grid-inner pp-content-body clearfix">
+			
+			
+			<div class="pp-content-post-data">
+									<h6 class="pp-content-grid-title pp-post-title" itemprop="headline">
+													<a href="https://civmin.utoronto.ca/prof-emeritus-doug-hooton-cementing-change-shrinking-the-eco-footprint-of-one-of-the-worlds-most-widely-used-materials/" title="Prof. Emeritus Doug Hooton | Cementing change: Shrinking the eco footprint of one of the world’s most widely used materials">
+														Prof. Emeritus Doug Hooton | Cementing change: Shrinking the eco footprint of one of the world’s most widely used materials													</a>
+											</h6>
+									
+				
+				
+				
+				
+									<div class="pp-content-grid-content pp-post-content content-type-excerpt">
+    <p>September 4, 2024 | Toronto Star</p>
+</div>
+				
+				
+				
+				
+			</div>
+			
+					</div>
+
+			</div>
+
+<div class="pp-content-post pp-content-grid-post pp-post-2n pp-grid-default post-40610 post type-post status-publish format-standard hentry category-in-the-news tag-bryan-karney" itemscope itemtype="https://schema.org/BlogPosting" data-id="40610">
+
+	<meta itemscope itemprop="mainEntityOfPage" itemtype="https://schema.org/WebPage" itemid="http://40610" content="Prof. Bryan Karney | Toronto company using lake water to cool buildings expands system" /><meta itemprop="datePublished" content="2024-08-30" /><meta itemprop="dateModified" content="2024-08-30" /><div itemprop="publisher" itemscope itemtype="https://schema.org/Organization"><meta itemprop="name" content="Department of Civil &amp; Mineral Engineering"></div><div itemscope itemprop="author" itemtype="https://schema.org/Person"><meta itemprop="url" content="https://civmin.utoronto.ca/author/phill-snelutoronto-ca/" /><meta itemprop="name" content="Phill Snel" /></div><div itemprop="interactionStatistic" itemscope itemtype="https://schema.org/InteractionCounter"><meta itemprop="interactionType" content="https://schema.org/CommentAction" /><meta itemprop="userInteractionCount" content="0" /></div>
+	
+		
+		
+		
+		
+		<div class="pp-content-grid-inner pp-content-body clearfix">
+			
+			
+			<div class="pp-content-post-data">
+									<h6 class="pp-content-grid-title pp-post-title" itemprop="headline">
+													<a href="https://civmin.utoronto.ca/prof-bryan-karney-toronto-company-using-lake-water-to-cool-buildings-expands-system/" title="Prof. Bryan Karney | Toronto company using lake water to cool buildings expands system">
+														Prof. Bryan Karney | Toronto company using lake water to cool buildings expands system													</a>
+											</h6>
+									
+				
+				
+				
+				
+									<div class="pp-content-grid-content pp-post-content content-type-excerpt">
+    <p>August 29, 2024 | CBC News</p>
+</div>
+				
+				
+				
+				
+			</div>
+			
+					</div>
+
+			</div>
+
+<div class="pp-content-post pp-content-grid-post pp-grid-default post-40281 post type-post status-publish format-standard hentry category-in-the-news tag-jeff-siegel tag-jeffrey-siegel" itemscope itemtype="https://schema.org/BlogPosting" data-id="40281">
+
+	<meta itemscope itemprop="mainEntityOfPage" itemtype="https://schema.org/WebPage" itemid="http://40281" content="Prof. Jeffrey Siegel | Les particules ultrafines causent des maladies et des décès à Montréal et Toronto" /><meta itemprop="datePublished" content="2024-08-09" /><meta itemprop="dateModified" content="2024-08-09" /><div itemprop="publisher" itemscope itemtype="https://schema.org/Organization"><meta itemprop="name" content="Department of Civil &amp; Mineral Engineering"></div><div itemscope itemprop="author" itemtype="https://schema.org/Person"><meta itemprop="url" content="https://civmin.utoronto.ca/author/phill-snelutoronto-ca/" /><meta itemprop="name" content="Phill Snel" /></div><div itemprop="interactionStatistic" itemscope itemtype="https://schema.org/InteractionCounter"><meta itemprop="interactionType" content="https://schema.org/CommentAction" /><meta itemprop="userInteractionCount" content="0" /></div>
+	
+		
+		
+		
+		
+		<div class="pp-content-grid-inner pp-content-body clearfix">
+			
+			
+			<div class="pp-content-post-data">
+									<h6 class="pp-content-grid-title pp-post-title" itemprop="headline">
+													<a href="https://civmin.utoronto.ca/prof-jeffrey-siegel-les-particules-ultrafines-causent-des-maladies-et-des-deces-a-montreal-et-toronto/" title="Prof. Jeffrey Siegel | Les particules ultrafines causent des maladies et des décès à Montréal et Toronto">
+														Prof. Jeffrey Siegel | Les particules ultrafines causent des maladies et des décès à Montréal et Toronto													</a>
+											</h6>
+									
+				
+				
+				
+				
+									<div class="pp-content-grid-content pp-post-content content-type-excerpt">
+    <p>Radio-Canada | August 8, 2024</p>
+</div>
+				
+				
+				
+				
+			</div>
+			
+					</div>
+
+			</div>
+
+<div class="pp-content-post pp-content-grid-post pp-post-2n pp-grid-default post-40279 post type-post status-publish format-standard hentry category-in-the-news tag-jeff-siegel tag-jeffrey-siegel" itemscope itemtype="https://schema.org/BlogPosting" data-id="40279">
+
+	<meta itemscope itemprop="mainEntityOfPage" itemtype="https://schema.org/WebPage" itemid="http://40279" content="Prof. Jeffrey Siegel | What are ultrafine particles and how can we mitigate the risk?" /><meta itemprop="datePublished" content="2024-08-09" /><meta itemprop="dateModified" content="2024-08-09" /><div itemprop="publisher" itemscope itemtype="https://schema.org/Organization"><meta itemprop="name" content="Department of Civil &amp; Mineral Engineering"></div><div itemscope itemprop="author" itemtype="https://schema.org/Person"><meta itemprop="url" content="https://civmin.utoronto.ca/author/phill-snelutoronto-ca/" /><meta itemprop="name" content="Phill Snel" /></div><div itemprop="interactionStatistic" itemscope itemtype="https://schema.org/InteractionCounter"><meta itemprop="interactionType" content="https://schema.org/CommentAction" /><meta itemprop="userInteractionCount" content="0" /></div>
+	
+		
+		
+		
+		
+		<div class="pp-content-grid-inner pp-content-body clearfix">
+			
+			
+			<div class="pp-content-post-data">
+									<h6 class="pp-content-grid-title pp-post-title" itemprop="headline">
+													<a href="https://civmin.utoronto.ca/prof-jeffrey-siegel-what-are-ultrafine-particles-and-how-can-we-mitigate-the-risk/" title="Prof. Jeffrey Siegel | What are ultrafine particles and how can we mitigate the risk?">
+														Prof. Jeffrey Siegel | What are ultrafine particles and how can we mitigate the risk?													</a>
+											</h6>
+									
+				
+				
+				
+				
+									<div class="pp-content-grid-content pp-post-content content-type-excerpt">
+    <p>CBC News | August 8, 2024</p>
+</div>
+				
+				
+				
+				
+			</div>
+			
+					</div>
+
+			</div>
+
+<div class="pp-content-post pp-content-grid-post pp-grid-default post-40258 post type-post status-publish format-standard hentry category-in-the-news tag-shoshanna-saxe" itemscope itemtype="https://schema.org/BlogPosting" data-id="40258">
+
+	<meta itemscope itemprop="mainEntityOfPage" itemtype="https://schema.org/WebPage" itemid="http://40258" content="Prof. Shoshanna Saxe | More with less: Researchers map a more sustainable path to home construction in Canada" /><meta itemprop="datePublished" content="2024-08-08" /><meta itemprop="dateModified" content="2024-08-08" /><div itemprop="publisher" itemscope itemtype="https://schema.org/Organization"><meta itemprop="name" content="Department of Civil &amp; Mineral Engineering"></div><div itemscope itemprop="author" itemtype="https://schema.org/Person"><meta itemprop="url" content="https://civmin.utoronto.ca/author/phill-snelutoronto-ca/" /><meta itemprop="name" content="Phill Snel" /></div><div itemprop="interactionStatistic" itemscope itemtype="https://schema.org/InteractionCounter"><meta itemprop="interactionType" content="https://schema.org/CommentAction" /><meta itemprop="userInteractionCount" content="0" /></div>
+	
+		
+		
+		
+		
+		<div class="pp-content-grid-inner pp-content-body clearfix">
+			
+			
+			<div class="pp-content-post-data">
+									<h6 class="pp-content-grid-title pp-post-title" itemprop="headline">
+													<a href="https://civmin.utoronto.ca/prof-shoshanna-saxe-more-with-less-researchers-map-a-more-sustainable-path-to-home-construction-in-canada/" title="Prof. Shoshanna Saxe | More with less: Researchers map a more sustainable path to home construction in Canada">
+														Prof. Shoshanna Saxe | More with less: Researchers map a more sustainable path to home construction in Canada													</a>
+											</h6>
+									
+				
+				
+				
+				
+									<div class="pp-content-grid-content pp-post-content content-type-excerpt">
+    <p>Education News Canada | August 7, 2024</p>
+</div>
+				
+				
+				
+				
+			</div>
+			
+					</div>
+
+			</div>
+
+								<div class="pp-grid-space"></div>
+				
+					</div>
+
+		<div class="fl-clear"></div>
+
+		
+				
+		</div><!-- .pp-content-posts -->
+	
+	</div>
+
+	</div>
+</div>
+</div>
+</div>
+	</div>
+
+<div class="fl-col-group fl-node-jgp57yi09fa6" data-node="jgp57yi09fa6">
+			<div class="fl-col fl-node-die4qfxabmt0" data-node="die4qfxabmt0">
+	<div class="fl-col-content fl-node-content"><div class="fl-module fl-module-pp-line-separator fl-node-k2cibwn4q0h8" data-node="k2cibwn4q0h8">
+	<div class="fl-module-content fl-node-content">
+		<div class="pp-line-separator-wrap">
+			<div class="pp-line-separator-inner pp-line-only">
+			<span class="pp-line-separator pp-line-only"></span>
+		</div>
+			</div>
+	</div>
+</div>
+</div>
+</div>
+	</div>
+		</div>
+	</div>
+</div>
+<div class="fl-row fl-row-full-width fl-row-bg-none fl-node-h05kq2r4amnt fl-row-default-height fl-row-align-center" data-node="h05kq2r4amnt">
+	<div class="fl-row-content-wrap">
+						<div class="fl-row-content fl-row-fixed-width fl-node-content">
+		
+<div class="fl-col-group fl-node-6plm1he5duki" data-node="6plm1he5duki">
+			<div class="fl-col fl-node-6b278jag3ctv fl-col-small" data-node="6b278jag3ctv">
+	<div class="fl-col-content fl-node-content"><div class="fl-module fl-module-heading fl-node-stylv175wxiu fl-visible-desktop fl-visible-large" data-node="stylv175wxiu">
+	<div class="fl-module-content fl-node-content">
+		<h2 class="fl-heading">
+		<a href="https://civmin.utoronto.ca/page/featured/" title="Featured" target="_self">
+		<span class="fl-heading-text">Featured</span>
+		</a>
+	</h2>
+	</div>
+</div>
+<div class="fl-module fl-module-pp-content-grid fl-node-v3x4eh28ylnz fl-visible-desktop fl-visible-large fl-visible-medium" data-node="v3x4eh28ylnz">
+	<div class="fl-module-content fl-node-content">
+		<div class="pp-posts-wrapper">
+		
+	<div class="pp-content-posts" style="--items-count: 1;--column-xl: 1;--column-lg: 1;--column-md: 1;--column-sm: 1;">
+		<div class="pp-content-post-grid pp-equal-height pp-css-grid" itemscope="itemscope" itemtype="https://schema.org/Blog">
+			
+				
+<div class="pp-content-post pp-content-grid-post pp-grid-default post-34037 post type-post status-publish format-standard has-post-thumbnail hentry category-featured category-news tag-adjustable-multidimensional tag-amd tag-canada-foundation-for-innovation tag-cfi tag-civil-engineering tag-constantin-christopoulos tag-renovation tag-stf tag-structural-testing-facilities tag-structural-testing-facility tag-sustainable-infrastructure" itemscope itemtype="https://schema.org/BlogPosting" data-id="34037">
+
+	<meta itemscope itemprop="mainEntityOfPage" itemtype="https://schema.org/WebPage" itemid="http://34037" content="World&#8217;s first adjustable multidimensional structural testing system coming to CivMin’s Structural Testing Facilities" /><meta itemprop="datePublished" content="2023-07-25" /><meta itemprop="dateModified" content="2023-08-03" /><div itemprop="publisher" itemscope itemtype="https://schema.org/Organization"><meta itemprop="name" content="Department of Civil &amp; Mineral Engineering"></div><div itemscope itemprop="author" itemtype="https://schema.org/Person"><meta itemprop="url" content="https://civmin.utoronto.ca/author/phill-snelutoronto-ca/" /><meta itemprop="name" content="Phill Snel" /></div><div itemscope itemprop="image" itemtype="https://schema.org/ImageObject"><meta itemprop="url" content="https://civmin.utoronto.ca/wp-content/uploads/2023/07/Screenshot-2023-07-12-at-2.11.35-PM.png" /><meta itemprop="width" content="2092" /><meta itemprop="height" content="1372" /></div><div itemprop="interactionStatistic" itemscope itemtype="https://schema.org/InteractionCounter"><meta itemprop="interactionType" content="https://schema.org/CommentAction" /><meta itemprop="userInteractionCount" content="0" /></div>
+	
+					<a class="pp-post-link" href="https://civmin.utoronto.ca/worlds-first-amd/" title="World&#8217;s first adjustable multidimensional structural testing system coming to CivMin’s Structural Testing Facilities"></a>
+		
+		
+		
+					<div class="pp-content-grid-image pp-post-image">
+    					<div class="pp-post-featured-img">
+				<div class="fl-photo fl-photo-crop-square fl-photo-align-center" itemscope itemtype="https://schema.org/ImageObject">
+	<div class="fl-photo-content fl-photo-img-png">
+				<img loading="lazy" decoding="async" class="fl-photo-img wp-image-34970 size-large pp-post-img no-lazyload" src="https://civmin.utoronto.ca/wp-content/uploads/bb-plugin/cache/Screenshot-2023-07-12-at-2.11.35-PM-1024x672-square-6637875f34da6e8fc8b439c59b755923-.png" alt="An illustration of the adjustable multidimensional (AMD) testing device to be installed in CivMin&#039;s Galbraith side of the Structural Testing Facilities (STF). " itemprop="image" data-no-lazy="1" height="672" width="1024" title="Screenshot 2023-07-12 at 2.11.35 PM"  />
+					</div>
+	</div>
+			</div>
+		    
+			
+		
+			</div>
+		
+		<div class="pp-content-grid-inner pp-content-body clearfix">
+			
+			
+			<div class="pp-content-post-data">
+									<h3 class="pp-content-grid-title pp-post-title" itemprop="headline">
+														World&#8217;s first adjustable multidimensional structural testing system coming to CivMin’s Structural Testing Facilities											</h3>
+									
+								<div class="pp-content-post-meta pp-post-meta">
+											<span class="pp-content-post-author pp-post-author">
+By <a href="https://civmin.utoronto.ca/author/phill-snelutoronto-ca/"><span>Phill Snel</span></a></span>					
+																		<span>  |  </span>
+												<span class="pp-content-grid-date pp-post-date">
+			July 25, 2023	</span>					
+									</div>
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+					</div>
+
+			</div>
+
+				
+					</div>
+
+		<div class="fl-clear"></div>
+
+		
+				
+		</div><!-- .pp-content-posts -->
+	
+	</div>
+
+	</div>
+</div>
+</div>
+</div>
+			<div class="fl-col fl-node-zacirymlohes fl-col-small" data-node="zacirymlohes">
+	<div class="fl-col-content fl-node-content"><div class="fl-module fl-module-heading fl-node-5g3xkc9ym1ro fl-visible-desktop fl-visible-large fl-visible-medium" data-node="5g3xkc9ym1ro">
+	<div class="fl-module-content fl-node-content">
+		<h2 class="fl-heading">
+		<a href="https://civmin.utoronto.ca/page/people/alumni/" title="Alumni Updates" target="_self">
+		<span class="fl-heading-text">Alumni Updates</span>
+		</a>
+	</h2>
+	</div>
+</div>
+<div class="fl-module fl-module-pp-content-grid fl-node-e5uvfswqob17 fl-visible-desktop fl-visible-large fl-visible-medium" data-node="e5uvfswqob17">
+	<div class="fl-module-content fl-node-content">
+		<div class="pp-posts-wrapper">
+		
+	<div class="pp-content-posts" style="--items-count: 1;--column-xl: 1;--column-lg: 1;--column-md: 1;--column-sm: 1;">
+		<div class="pp-content-post-grid pp-equal-height pp-css-grid" itemscope="itemscope" itemtype="https://schema.org/Blog">
+			
+				
+<div class="pp-content-post pp-content-grid-post pp-grid-default post-40598 post type-post status-publish format-standard has-post-thumbnail hentry category-alumni category-news tag-alumni tag-alumnus tag-camp tag-gull-lake tag-phil-feldman tag-survey-camp" itemscope itemtype="https://schema.org/BlogPosting" data-id="40598">
+
+	<meta itemscope itemprop="mainEntityOfPage" itemtype="https://schema.org/WebPage" itemid="http://40598" content="Memories of Camp from 1957: Visiting Gull Lake" /><meta itemprop="datePublished" content="2024-09-04" /><meta itemprop="dateModified" content="2024-09-04" /><div itemprop="publisher" itemscope itemtype="https://schema.org/Organization"><meta itemprop="name" content="Department of Civil &amp; Mineral Engineering"></div><div itemscope itemprop="author" itemtype="https://schema.org/Person"><meta itemprop="url" content="https://civmin.utoronto.ca/author/phill-snelutoronto-ca/" /><meta itemprop="name" content="Phill Snel" /></div><div itemscope itemprop="image" itemtype="https://schema.org/ImageObject"><meta itemprop="url" content="https://civmin.utoronto.ca/wp-content/uploads/2024/09/Camp1-Group-MED-4L8A3072.jpg" /><meta itemprop="width" content="2500" /><meta itemprop="height" content="1667" /></div><div itemprop="interactionStatistic" itemscope itemtype="https://schema.org/InteractionCounter"><meta itemprop="interactionType" content="https://schema.org/CommentAction" /><meta itemprop="userInteractionCount" content="0" /></div>
+	
+					<a class="pp-post-link" href="https://civmin.utoronto.ca/memories-of-camp-visiting-gull-lake/" title="Memories of Camp from 1957: Visiting Gull Lake"></a>
+		
+		
+		
+					<div class="pp-content-grid-image pp-post-image">
+    					<div class="pp-post-featured-img">
+				<div class="fl-photo fl-photo-crop-square fl-photo-align-center" itemscope itemtype="https://schema.org/ImageObject">
+	<div class="fl-photo-content fl-photo-img-jpg">
+				<img loading="lazy" decoding="async" class="fl-photo-img wp-image-40649 size-large pp-post-img no-lazyload" src="https://civmin.utoronto.ca/wp-content/uploads/bb-plugin/cache/Camp1-Group-MED-4L8A3072-1024x683-square-70fc53679404e796cdc823745179e445-.jpg" alt="A group photo of students, professors, staff and guests at Camp 1 on August 14, 2024. (Photo by Phill Snel)" itemprop="image" data-no-lazy="1" height="683" width="1024" title="Camp1 Group MED -4L8A3072"  />
+					</div>
+	</div>
+			</div>
+		    
+			
+		
+			</div>
+		
+		<div class="pp-content-grid-inner pp-content-body clearfix">
+			
+			
+			<div class="pp-content-post-data">
+									<h3 class="pp-content-grid-title pp-post-title" itemprop="headline">
+														Memories of Camp from 1957: Visiting Gull Lake											</h3>
+									
+								<div class="pp-content-post-meta pp-post-meta">
+											<span class="pp-content-post-author pp-post-author">
+By <a href="https://civmin.utoronto.ca/author/phill-snelutoronto-ca/"><span>Phill Snel</span></a></span>					
+																		<span>  |  </span>
+												<span class="pp-content-grid-date pp-post-date">
+			September 4, 2024	</span>					
+									</div>
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+					</div>
+
+			</div>
+
+				
+					</div>
+
+		<div class="fl-clear"></div>
+
+		
+				
+		</div><!-- .pp-content-posts -->
+	
+	</div>
+
+	</div>
+</div>
+</div>
+</div>
+			<div class="fl-col fl-node-d2ar5mlbp3h7 fl-col-small" data-node="d2ar5mlbp3h7">
+	<div class="fl-col-content fl-node-content"><div class="fl-module fl-module-heading fl-node-4cz2lwsyghra" data-node="4cz2lwsyghra">
+	<div class="fl-module-content fl-node-content">
+		<h2 class="fl-heading">
+		<a href="https://civmin.utoronto.ca/page/awards/" title="Awards &amp; Recognition" target="_self">
+		<span class="fl-heading-text">Awards & Recognition</span>
+		</a>
+	</h2>
+	</div>
+</div>
+<div class="fl-module fl-module-pp-content-grid fl-node-krzoms17w90p" data-node="krzoms17w90p">
+	<div class="fl-module-content fl-node-content">
+		<div class="pp-posts-wrapper">
+		
+	<div class="pp-content-posts" style="--items-count: 10;--column-xl: 1;--column-lg: 1;--column-md: 1;--column-sm: 1;">
+		<div class="pp-content-post-grid pp-masonry-active clearfix" itemscope="itemscope" itemtype="https://schema.org/Blog">
+			
+				
+<div class="pp-content-post pp-content-grid-post pp-grid-default post-40616 post type-post status-publish format-standard has-post-thumbnail hentry category-awards category-students" itemscope itemtype="https://schema.org/BlogPosting" data-id="40616">
+
+	<meta itemscope itemprop="mainEntityOfPage" itemtype="https://schema.org/WebPage" itemid="http://40616" content="Undergrad wins best overall poster presentation" /><meta itemprop="datePublished" content="2024-09-03" /><meta itemprop="dateModified" content="2024-09-03" /><div itemprop="publisher" itemscope itemtype="https://schema.org/Organization"><meta itemprop="name" content="Department of Civil &amp; Mineral Engineering"></div><div itemscope itemprop="author" itemtype="https://schema.org/Person"><meta itemprop="url" content="https://civmin.utoronto.ca/author/phill-snelutoronto-ca/" /><meta itemprop="name" content="Phill Snel" /></div><div itemscope itemprop="image" itemtype="https://schema.org/ImageObject"><meta itemprop="url" content="https://civmin.utoronto.ca/wp-content/uploads/2024/09/Michel-crop-SQ-UnERD-picture-1.jpg" /><meta itemprop="width" content="496" /><meta itemprop="height" content="496" /></div><div itemprop="interactionStatistic" itemscope itemtype="https://schema.org/InteractionCounter"><meta itemprop="interactionType" content="https://schema.org/CommentAction" /><meta itemprop="userInteractionCount" content="0" /></div>
+	
+		
+		
+		
+		
+		<div class="pp-content-grid-inner pp-content-body clearfix">
+			
+			
+			<div class="pp-content-post-data">
+									<h6 class="pp-content-grid-title pp-post-title" itemprop="headline">
+													<a href="https://civmin.utoronto.ca/civmin-undergrad-wins-best-overall-poster-presentation/" title="Undergrad wins best overall poster presentation">
+														Undergrad wins best overall poster presentation													</a>
+											</h6>
+									
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+					</div>
+
+			</div>
+
+<div class="pp-content-post pp-content-grid-post pp-post-2n pp-grid-default post-40233 post type-post status-publish format-standard has-post-thumbnail hentry category-awards tag-enerphit tag-justin-berquist tag-kelsey-eakin tag-marianne-touchie tag-rdh-research-scholarship tag-research tag-yazan-zamel" itemscope itemtype="https://schema.org/BlogPosting" data-id="40233">
+
+	<meta itemscope itemprop="mainEntityOfPage" itemtype="https://schema.org/WebPage" itemid="http://40233" content="RDH Research Scholarship winners" /><meta itemprop="datePublished" content="2024-08-01" /><meta itemprop="dateModified" content="2024-08-01" /><div itemprop="publisher" itemscope itemtype="https://schema.org/Organization"><meta itemprop="name" content="Department of Civil &amp; Mineral Engineering"></div><div itemscope itemprop="author" itemtype="https://schema.org/Person"><meta itemprop="url" content="https://civmin.utoronto.ca/author/phill-snelutoronto-ca/" /><meta itemprop="name" content="Phill Snel" /></div><div itemscope itemprop="image" itemtype="https://schema.org/ImageObject"><meta itemprop="url" content="https://civmin.utoronto.ca/wp-content/uploads/2024/08/GHD-trio-SQ-copy.jpg" /><meta itemprop="width" content="768" /><meta itemprop="height" content="768" /></div><div itemprop="interactionStatistic" itemscope itemtype="https://schema.org/InteractionCounter"><meta itemprop="interactionType" content="https://schema.org/CommentAction" /><meta itemprop="userInteractionCount" content="0" /></div>
+	
+		
+		
+		
+		
+		<div class="pp-content-grid-inner pp-content-body clearfix">
+			
+			
+			<div class="pp-content-post-data">
+									<h6 class="pp-content-grid-title pp-post-title" itemprop="headline">
+													<a href="https://civmin.utoronto.ca/rdh-research-scholarship-winners/" title="RDH Research Scholarship winners">
+														RDH Research Scholarship winners													</a>
+											</h6>
+									
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+					</div>
+
+			</div>
+
+<div class="pp-content-post pp-content-grid-post pp-grid-default post-40184 post type-post status-publish format-standard has-post-thumbnail hentry category-awards tag-alec-mak" itemscope itemtype="https://schema.org/BlogPosting" data-id="40184">
+
+	<meta itemscope itemprop="mainEntityOfPage" itemtype="https://schema.org/WebPage" itemid="http://40184" content="Alec Mak is winner of 2024 Transportation Association of Canada (TAC) Student Paper Prize" /><meta itemprop="datePublished" content="2024-07-30" /><meta itemprop="dateModified" content="2024-08-01" /><div itemprop="publisher" itemscope itemtype="https://schema.org/Organization"><meta itemprop="name" content="Department of Civil &amp; Mineral Engineering"></div><div itemscope itemprop="author" itemtype="https://schema.org/Person"><meta itemprop="url" content="https://civmin.utoronto.ca/author/phill-snelutoronto-ca/" /><meta itemprop="name" content="Phill Snel" /></div><div itemscope itemprop="image" itemtype="https://schema.org/ImageObject"><meta itemprop="url" content="https://civmin.utoronto.ca/wp-content/uploads/2024/07/Alec-Mak-SM-SQ-IMG_4889.jpg" /><meta itemprop="width" content="696" /><meta itemprop="height" content="695" /></div><div itemprop="interactionStatistic" itemscope itemtype="https://schema.org/InteractionCounter"><meta itemprop="interactionType" content="https://schema.org/CommentAction" /><meta itemprop="userInteractionCount" content="0" /></div>
+	
+		
+		
+		
+		
+		<div class="pp-content-grid-inner pp-content-body clearfix">
+			
+			
+			<div class="pp-content-post-data">
+									<h6 class="pp-content-grid-title pp-post-title" itemprop="headline">
+													<a href="https://civmin.utoronto.ca/alec-mak-is-winner-of-2024-transportation-association-of-canada-tac-student-paper-prize/" title="Alec Mak is winner of 2024 Transportation Association of Canada (TAC) Student Paper Prize">
+														Alec Mak is winner of 2024 Transportation Association of Canada (TAC) Student Paper Prize													</a>
+											</h6>
+									
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+					</div>
+
+			</div>
+
+<div class="pp-content-post pp-content-grid-post pp-post-2n pp-grid-default post-39970 post type-post status-publish format-standard has-post-thumbnail hentry category-awards category-faculty category-news tag-american-rock-mechanics-association tag-arma tag-paul-young tag-rock-mechanics" itemscope itemtype="https://schema.org/BlogPosting" data-id="39970">
+
+	<meta itemscope itemprop="mainEntityOfPage" itemtype="https://schema.org/WebPage" itemid="http://39970" content="Paul Young elected as ARMA Fellow" /><meta itemprop="datePublished" content="2024-07-05" /><meta itemprop="dateModified" content="2024-08-08" /><div itemprop="publisher" itemscope itemtype="https://schema.org/Organization"><meta itemprop="name" content="Department of Civil &amp; Mineral Engineering"></div><div itemscope itemprop="author" itemtype="https://schema.org/Person"><meta itemprop="url" content="https://civmin.utoronto.ca/author/galina-nikitina/" /><meta itemprop="name" content="Galina Nikitina" /></div><div itemscope itemprop="image" itemtype="https://schema.org/ImageObject"><meta itemprop="url" content="https://civmin.utoronto.ca/wp-content/uploads/2024/07/Young-ARMA-Fellow-Presentaionsmall.png" /><meta itemprop="width" content="841" /><meta itemprop="height" content="841" /></div><div itemprop="interactionStatistic" itemscope itemtype="https://schema.org/InteractionCounter"><meta itemprop="interactionType" content="https://schema.org/CommentAction" /><meta itemprop="userInteractionCount" content="0" /></div>
+	
+		
+		
+		
+		
+		<div class="pp-content-grid-inner pp-content-body clearfix">
+			
+			
+			<div class="pp-content-post-data">
+									<h6 class="pp-content-grid-title pp-post-title" itemprop="headline">
+													<a href="https://civmin.utoronto.ca/paul-young-elected-as-arma-fellow/" title="Paul Young elected as ARMA Fellow">
+														Paul Young elected as ARMA Fellow													</a>
+											</h6>
+									
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+					</div>
+
+			</div>
+
+<div class="pp-content-post pp-content-grid-post pp-grid-default post-39813 post type-post status-publish format-standard has-post-thumbnail hentry category-awards category-news category-students tag-5mt tag-alex-ariza tag-award tag-eric-miller tag-farah-ghizzawi tag-five-minute-thesis tag-mobility-network tag-mwendwa-kiko tag-weaam-jaafar" itemscope itemtype="https://schema.org/BlogPosting" data-id="39813">
+
+	<meta itemscope itemprop="mainEntityOfPage" itemtype="https://schema.org/WebPage" itemid="http://39813" content="Winners of the 2024 Mobility Network 5MT Competition" /><meta itemprop="datePublished" content="2024-06-13" /><meta itemprop="dateModified" content="2024-06-13" /><div itemprop="publisher" itemscope itemtype="https://schema.org/Organization"><meta itemprop="name" content="Department of Civil &amp; Mineral Engineering"></div><div itemscope itemprop="author" itemtype="https://schema.org/Person"><meta itemprop="url" content="https://civmin.utoronto.ca/author/phill-snelutoronto-ca/" /><meta itemprop="name" content="Phill Snel" /></div><div itemscope itemprop="image" itemtype="https://schema.org/ImageObject"><meta itemprop="url" content="https://civmin.utoronto.ca/wp-content/uploads/2024/06/5MT-Group-CROP-med-SQ-4L8A0903.jpg" /><meta itemprop="width" content="1250" /><meta itemprop="height" content="1250" /></div><div itemprop="interactionStatistic" itemscope itemtype="https://schema.org/InteractionCounter"><meta itemprop="interactionType" content="https://schema.org/CommentAction" /><meta itemprop="userInteractionCount" content="0" /></div>
+	
+		
+		
+		
+		
+		<div class="pp-content-grid-inner pp-content-body clearfix">
+			
+			
+			<div class="pp-content-post-data">
+									<h6 class="pp-content-grid-title pp-post-title" itemprop="headline">
+													<a href="https://civmin.utoronto.ca/winners-of-the-2024-mobility-network-5mt-competition/" title="Winners of the 2024 Mobility Network 5MT Competition">
+														Winners of the 2024 Mobility Network 5MT Competition													</a>
+											</h6>
+									
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+					</div>
+
+			</div>
+
+<div class="pp-content-post pp-content-grid-post pp-post-2n pp-grid-default post-39768 post type-post status-publish format-standard hentry category-awards" itemscope itemtype="https://schema.org/BlogPosting" data-id="39768">
+
+	<meta itemscope itemprop="mainEntityOfPage" itemtype="https://schema.org/WebPage" itemid="http://39768" content="CivMin undergrads garner fourth-year awards" /><meta itemprop="datePublished" content="2024-06-12" /><meta itemprop="dateModified" content="2024-06-19" /><div itemprop="publisher" itemscope itemtype="https://schema.org/Organization"><meta itemprop="name" content="Department of Civil &amp; Mineral Engineering"></div><div itemscope itemprop="author" itemtype="https://schema.org/Person"><meta itemprop="url" content="https://civmin.utoronto.ca/author/phill-snelutoronto-ca/" /><meta itemprop="name" content="Phill Snel" /></div><div itemprop="interactionStatistic" itemscope itemtype="https://schema.org/InteractionCounter"><meta itemprop="interactionType" content="https://schema.org/CommentAction" /><meta itemprop="userInteractionCount" content="0" /></div>
+	
+		
+		
+		
+		
+		<div class="pp-content-grid-inner pp-content-body clearfix">
+			
+			
+			<div class="pp-content-post-data">
+									<h6 class="pp-content-grid-title pp-post-title" itemprop="headline">
+													<a href="https://civmin.utoronto.ca/civmin-undergrads-garner-fourth-year-awards/" title="CivMin undergrads garner fourth-year awards">
+														CivMin undergrads garner fourth-year awards													</a>
+											</h6>
+									
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+					</div>
+
+			</div>
+
+<div class="pp-content-post pp-content-grid-post pp-grid-default post-39754 post type-post status-publish format-standard has-post-thumbnail hentry category-awards category-news category-students" itemscope itemtype="https://schema.org/BlogPosting" data-id="39754">
+
+	<meta itemscope itemprop="mainEntityOfPage" itemtype="https://schema.org/WebPage" itemid="http://39754" content="CivMin grad students win at the third annual symposium for City Logistics for the Urban Economy" /><meta itemprop="datePublished" content="2024-06-05" /><meta itemprop="dateModified" content="2024-06-05" /><div itemprop="publisher" itemscope itemtype="https://schema.org/Organization"><meta itemprop="name" content="Department of Civil &amp; Mineral Engineering"></div><div itemscope itemprop="author" itemtype="https://schema.org/Person"><meta itemprop="url" content="https://civmin.utoronto.ca/author/phill-snelutoronto-ca/" /><meta itemprop="name" content="Phill Snel" /></div><div itemscope itemprop="image" itemtype="https://schema.org/ImageObject"><meta itemprop="url" content="https://civmin.utoronto.ca/wp-content/uploads/2024/06/CLUE-winners-Farah-Sara-copy-SQ.jpg" /><meta itemprop="width" content="290" /><meta itemprop="height" content="290" /></div><div itemprop="interactionStatistic" itemscope itemtype="https://schema.org/InteractionCounter"><meta itemprop="interactionType" content="https://schema.org/CommentAction" /><meta itemprop="userInteractionCount" content="0" /></div>
+	
+		
+		
+		
+		
+		<div class="pp-content-grid-inner pp-content-body clearfix">
+			
+			
+			<div class="pp-content-post-data">
+									<h6 class="pp-content-grid-title pp-post-title" itemprop="headline">
+													<a href="https://civmin.utoronto.ca/civmin-grad-students-win-at-the-third-annual-symposium-for-city-logistics-for-the-urban-economy/" title="CivMin grad students win at the third annual symposium for City Logistics for the Urban Economy">
+														CivMin grad students win at the third annual symposium for City Logistics for the Urban Economy													</a>
+											</h6>
+									
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+					</div>
+
+			</div>
+
+<div class="pp-content-post pp-content-grid-post pp-post-2n pp-grid-default post-39723 post type-post status-publish format-standard has-post-thumbnail hentry category-awards category-news category-students tag-bhabishya-khaniya tag-nserc tag-vanier-canada-graduate-scholarships tag-vanier-cgs" itemscope itemtype="https://schema.org/BlogPosting" data-id="39723">
+
+	<meta itemscope itemprop="mainEntityOfPage" itemtype="https://schema.org/WebPage" itemid="http://39723" content="CivMin PhD student Bhabishya Khaniya awarded Vanier Scholarship" /><meta itemprop="datePublished" content="2024-06-04" /><meta itemprop="dateModified" content="2024-06-05" /><div itemprop="publisher" itemscope itemtype="https://schema.org/Organization"><meta itemprop="name" content="Department of Civil &amp; Mineral Engineering"></div><div itemscope itemprop="author" itemtype="https://schema.org/Person"><meta itemprop="url" content="https://civmin.utoronto.ca/author/phill-snelutoronto-ca/" /><meta itemprop="name" content="Phill Snel" /></div><div itemscope itemprop="image" itemtype="https://schema.org/ImageObject"><meta itemprop="url" content="https://civmin.utoronto.ca/wp-content/uploads/2024/06/Bhabishya-Khaniya-GRITLab-Med-SQ.jpg" /><meta itemprop="width" content="1521" /><meta itemprop="height" content="1521" /></div><div itemprop="interactionStatistic" itemscope itemtype="https://schema.org/InteractionCounter"><meta itemprop="interactionType" content="https://schema.org/CommentAction" /><meta itemprop="userInteractionCount" content="0" /></div>
+	
+		
+		
+		
+		
+		<div class="pp-content-grid-inner pp-content-body clearfix">
+			
+			
+			<div class="pp-content-post-data">
+									<h6 class="pp-content-grid-title pp-post-title" itemprop="headline">
+													<a href="https://civmin.utoronto.ca/civmin-phd-student-bhabishya-khaniya-is-vanier-scholar/" title="CivMin PhD student Bhabishya Khaniya awarded Vanier Scholarship">
+														CivMin PhD student Bhabishya Khaniya awarded Vanier Scholarship													</a>
+											</h6>
+									
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+					</div>
+
+			</div>
+
+<div class="pp-content-post pp-content-grid-post pp-grid-default post-39721 post type-post status-publish format-standard has-post-thumbnail hentry category-awards category-news category-students tag-governor-generals-silver-medal tag-jeff-chen tag-john-black-aird-scholarship" itemscope itemtype="https://schema.org/BlogPosting" data-id="39721">
+
+	<meta itemscope itemprop="mainEntityOfPage" itemtype="https://schema.org/WebPage" itemid="http://39721" content="CivMin student Jeff Chen achieves highest marks in Engineering and all of U of T" /><meta itemprop="datePublished" content="2024-06-04" /><meta itemprop="dateModified" content="2024-06-06" /><div itemprop="publisher" itemscope itemtype="https://schema.org/Organization"><meta itemprop="name" content="Department of Civil &amp; Mineral Engineering"></div><div itemscope itemprop="author" itemtype="https://schema.org/Person"><meta itemprop="url" content="https://civmin.utoronto.ca/author/phill-snelutoronto-ca/" /><meta itemprop="name" content="Phill Snel" /></div><div itemscope itemprop="image" itemtype="https://schema.org/ImageObject"><meta itemprop="url" content="https://civmin.utoronto.ca/wp-content/uploads/2024/06/Jeff-Photo-copy-SQ.jpg" /><meta itemprop="width" content="1427" /><meta itemprop="height" content="1427" /></div><div itemprop="interactionStatistic" itemscope itemtype="https://schema.org/InteractionCounter"><meta itemprop="interactionType" content="https://schema.org/CommentAction" /><meta itemprop="userInteractionCount" content="0" /></div>
+	
+		
+		
+		
+		
+		<div class="pp-content-grid-inner pp-content-body clearfix">
+			
+			
+			<div class="pp-content-post-data">
+									<h6 class="pp-content-grid-title pp-post-title" itemprop="headline">
+													<a href="https://civmin.utoronto.ca/civmin-student-jeff-chen-awarded-the-governor-generals-silver-medal-and-the-john-black-aird-scholarship/" title="CivMin student Jeff Chen achieves highest marks in Engineering and all of U of T">
+														CivMin student Jeff Chen achieves highest marks in Engineering and all of U of T													</a>
+											</h6>
+									
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+					</div>
+
+			</div>
+
+<div class="pp-content-post pp-content-grid-post pp-post-2n pp-grid-default post-39636 post type-post status-publish format-standard hentry category-awards category-faculty tag-giovanni-barla-best-paper-award tag-greig-kno tag-john-hadjigeorgiou tag-rock-mechanics-and-rock-engineering" itemscope itemtype="https://schema.org/BlogPosting" data-id="39636">
+
+	<meta itemscope itemprop="mainEntityOfPage" itemtype="https://schema.org/WebPage" itemid="http://39636" content="CivMin PhD student and professor win Giovanni Barla Best Paper Award" /><meta itemprop="datePublished" content="2024-05-27" /><meta itemprop="dateModified" content="2024-05-27" /><div itemprop="publisher" itemscope itemtype="https://schema.org/Organization"><meta itemprop="name" content="Department of Civil &amp; Mineral Engineering"></div><div itemscope itemprop="author" itemtype="https://schema.org/Person"><meta itemprop="url" content="https://civmin.utoronto.ca/author/phill-snelutoronto-ca/" /><meta itemprop="name" content="Phill Snel" /></div><div itemprop="interactionStatistic" itemscope itemtype="https://schema.org/InteractionCounter"><meta itemprop="interactionType" content="https://schema.org/CommentAction" /><meta itemprop="userInteractionCount" content="0" /></div>
+	
+		
+		
+		
+		
+		<div class="pp-content-grid-inner pp-content-body clearfix">
+			
+			
+			<div class="pp-content-post-data">
+									<h6 class="pp-content-grid-title pp-post-title" itemprop="headline">
+													<a href="https://civmin.utoronto.ca/civmin-phd-student-and-professor-win-giovanni-barla-best-paper-award/" title="CivMin PhD student and professor win Giovanni Barla Best Paper Award">
+														CivMin PhD student and professor win Giovanni Barla Best Paper Award													</a>
+											</h6>
+									
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>
+			
+					</div>
+
+			</div>
+
+								<div class="pp-grid-space"></div>
+				
+					</div>
+
+		<div class="fl-clear"></div>
+
+		
+				
+		</div><!-- .pp-content-posts -->
+	
+	</div>
+
+	</div>
+</div>
+<div class="fl-module fl-module-heading fl-node-pxbvo862fjsr" data-node="pxbvo862fjsr">
+	<div class="fl-module-content fl-node-content">
+		<h2 class="fl-heading">
+		<span class="fl-heading-text">Get Involved With CivMin</span>
+	</h2>
+	</div>
+</div>
+</div>
+</div>
+	</div>
+		</div>
+	</div>
+</div>
+<div class="fl-row fl-row-full-width fl-row-bg-color fl-node-l1czvms7en95 fl-row-default-height fl-row-align-center" data-node="l1czvms7en95">
+	<div class="fl-row-content-wrap">
+						<div class="fl-row-content fl-row-fixed-width fl-node-content">
+		
+<div class="fl-col-group fl-node-jlkuz1rq5sdw" data-node="jlkuz1rq5sdw">
+			<div class="fl-col fl-node-muj7lxop1fak" data-node="muj7lxop1fak">
+	<div class="fl-col-content fl-node-content"><div class="fl-module fl-module-heading fl-node-342esy7t0xgz" data-node="342esy7t0xgz">
+	<div class="fl-module-content fl-node-content">
+		<h2 class="fl-heading">
+		<span class="fl-heading-text">Get involved</span>
+	</h2>
+	</div>
+</div>
+</div>
+</div>
+	</div>
+
+<div class="fl-col-group fl-node-sm92lfhq7w3p" data-node="sm92lfhq7w3p">
+			<div class="fl-col fl-node-n80zkm9vhxbe fl-col-has-cols" data-node="n80zkm9vhxbe">
+	<div class="fl-col-content fl-node-content">
+<div class="fl-col-group fl-node-s9o20en73myi fl-col-group-nested" data-node="s9o20en73myi">
+			<div class="fl-col fl-node-e3ca7o5ngpm6 fl-col-small" data-node="e3ca7o5ngpm6">
+	<div class="fl-col-content fl-node-content"><div class="fl-module fl-module-icon fl-node-i2a5sbocy4vf" data-node="i2a5sbocy4vf">
+	<div class="fl-module-content fl-node-content">
+		<div class="fl-icon-wrap">
+	<span class="fl-icon">
+								<a href="https://uoftengineeringconnect.ca/feed" target="_blank" tabindex="-1" aria-hidden="true" aria-labelledby="fl-icon-text-i2a5sbocy4vf" rel="noopener" >
+							<i class="fab fa-connectdevelop" aria-hidden="true"></i>
+						</a>
+			</span>
+			<div id="fl-icon-text-i2a5sbocy4vf" class="fl-icon-text">
+						<a href="https://uoftengineeringconnect.ca/feed" target="_blank" class="fl-icon-text-link fl-icon-text-wrap" rel="noopener" >
+						<h5>U of T Engineering Connect</h5>						</a>
+					</div>
+	</div>
+	</div>
+</div>
+</div>
+</div>
+			<div class="fl-col fl-node-hua1gfb8ocvi fl-col-small" data-node="hua1gfb8ocvi">
+	<div class="fl-col-content fl-node-content"><div class="fl-module fl-module-icon fl-node-licars0mpdvo" data-node="licars0mpdvo">
+	<div class="fl-module-content fl-node-content">
+		<div class="fl-icon-wrap">
+	<span class="fl-icon">
+								<a href="https://civmin.utoronto.ca/home/partner-with-us/industry-advisory-board/#:~:text=Purpose%3A,Department&#039;s%20undergraduate%20and%20graduate%20students." target="_blank" tabindex="-1" aria-hidden="true" aria-labelledby="fl-icon-text-licars0mpdvo" rel="noopener" >
+							<i class="fas fa-people-carry" aria-hidden="true"></i>
+						</a>
+			</span>
+			<div id="fl-icon-text-licars0mpdvo" class="fl-icon-text">
+						<a href="https://civmin.utoronto.ca/home/partner-with-us/industry-advisory-board/#:~:text=Purpose%3A,Department&#039;s%20undergraduate%20and%20graduate%20students." target="_blank" class="fl-icon-text-link fl-icon-text-wrap" rel="noopener" >
+						<h5>Industry Advisory Board</h5>						</a>
+					</div>
+	</div>
+	</div>
+</div>
+</div>
+</div>
+	</div>
+</div>
+</div>
+	</div>
+		</div>
+	</div>
+</div>
+</div>	</section><!-- .entry-content -->
+
+	</article><!-- #post-## -->
+		</div><!-- .dflex -->
+	</div><!-- #main -->
+</main><!-- #content -->
+
+
+	<footer id="footer" class="footer">
+		<div class="site-footer content-wrap">
+			<div class="footer-wordmark">
+				<div class="wordmark-wrapper d-flex align-items-center justify-content-center">
+					<a href="https://civmin.utoronto.ca">
+					<img src="https://civmin.utoronto.ca/wp-content/themes/fase-theme-2023-master/assets/img/ll-placeholder.png" data-src="https://civmin.utoronto.ca/wp-content/uploads/2023/02/CivMin_Signature_Reverse.svg" alt="U of T Enginering Home" height="94" width="442" class="lazyload" />
+					</a>
+				</div>
+			</div>
+			<div class="footer-social">
+								<div class="footer-social-menu">
+					<div class="menu-social-container"><ul id="menu-social-1" class="social-nav"><li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-14159 nav-item"><a href="https://www.facebook.com/civminutoronto/" class="nav-link"><span class="soc-icon-facebook"></span><span class="screen-reader-text">Facebook</span></span></a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-14160 nav-item"><a href="https://twitter.com/civmin?lang=en" class="nav-link"><span class="soc-icon-twitter"></span><span class="screen-reader-text">Twitter/X</span></span></a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-14161 nav-item"><a href="https://www.instagram.com/civmin/" class="nav-link"><span class="soc-icon-instagram"></span><span class="screen-reader-text">Instagram</span></span></a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-22663 nav-item"><a href="https://www.linkedin.com/school/civmin/" class="nav-link"><span class="soc-icon-linkedin"></span><span class="screen-reader-text">LinkedIn</span></span></a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-24105 nav-item"><a href="https://www.youtube.com/user/civmin" class="nav-link"><span class="soc-icon-youtube"></span><span class="screen-reader-text">Youtube</span></span></a></li>
+</ul></div>				</div>
+									<address>
+					Department of Civil &amp; Mineral Engineering<br />
+35 St. George St.<br />
+Toronto, Ontario, Canada<br />
+M5S 1A4				</address>
+			</div>
+						<div class="footer-gravity d-flex align-items-center justify-content-center">
+								<a href="https://defygravitycampaign.utoronto.ca/" alt="Link to Defy Gravity Campaign">
+									<img src="https://civmin.utoronto.ca/wp-content/themes/fase-theme-2023-master/assets/img/ll-placeholder.png" data-src="https://civmin.utoronto.ca/wp-content/themes/fase-theme-2023-master/assets/img/defy_gravity_reverse_digital.svg" alt="Defy Gravity" height="75" width="140" class="lazyload" />
+								</a>
+								</div>
+						</div>
+				<div class="site-footer content-wrap tla d-flex flex-column align-items-center justify-content-center">
+			<h2>Traditional Land Acknowledgement</h2>
+<p>We wish to acknowledge this land on which the University of Toronto operates. For thousands of years it has been the traditional land of the Huron-Wendat, the Seneca, and the Mississaugas of the Credit. Today, this meeting place is still the home to many Indigenous people from across Turtle Island and we are grateful to have the opportunity to work on this land.</p>
+		</div>
+				</footer><!-- .site-footer container-->
+	<section class="small-footer" aria-label="Copyright">
+		<div class="copyright d-flex flex-column flex-sm-column flex-md-row justify-content-md-between align-items-md-center content-wrap pb-2 pt-2">
+			<div class="copy-text p-2"><p><p>© 2024 Faculty of Applied Science and Engineering</p>
+</p></div>
+			<div class="copy-nav p-2">
+				<div class="menu-footer-quick-links-container"><ul id="menu-footer-quick-links" class="footer-nav-3"><li id="menu-item-24106" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-24106"><a href="https://www.utoronto.ca/">U of T Home</a></li>
+<li id="menu-item-24107" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-24107"><a href="https://www.utoronto.ca/accessibility">Accessibility</a></li>
+<li id="menu-item-24108" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-24108"><a href="https://www.utoronto.ca/privacy">Privacy</a></li>
+<li id="menu-item-37823" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-37823"><a href="https://data.viceprovoststudents.utoronto.ca/">Student Data Practices</a></li>
+<li id="menu-item-24109" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-24109"><a href="mailto:civ.communications@utoronto.ca">Website Feedback</a></li>
+</ul></div>			</div>
+		</div>
+	</section>
+</div><!-- #page -->
+		<script>
+		( function ( body ) {
+			'use strict';
+			body.className = body.className.replace( /\btribe-no-js\b/, 'tribe-js' );
+		} )( document.body );
+		</script>
+		<script> /* <![CDATA[ */var tribe_l10n_datatables = {"aria":{"sort_ascending":": activate to sort column ascending","sort_descending":": activate to sort column descending"},"length_menu":"Show _MENU_ entries","empty_table":"No data available in table","info":"Showing _START_ to _END_ of _TOTAL_ entries","info_empty":"Showing 0 to 0 of 0 entries","info_filtered":"(filtered from _MAX_ total entries)","zero_records":"No matching records found","search":"Search:","all_selected_text":"All items on this page were selected. ","select_all_link":"Select all pages","clear_selection":"Clear Selection.","pagination":{"all":"All","next":"Next","previous":"Previous"},"select":{"rows":{"0":"","_":": Selected %d rows","1":": Selected 1 row"}},"datepicker":{"dayNames":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"dayNamesShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"dayNamesMin":["S","M","T","W","T","F","S"],"monthNames":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesShort":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesMin":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"nextText":"Next","prevText":"Prev","currentText":"Today","closeText":"Done","today":"Today","clear":"Clear"}};/* ]]> */ </script><script type="text/javascript">
+		/* MonsterInsights Scroll Tracking */
+		if ( typeof(jQuery) !== 'undefined' ) {
+		jQuery( document ).ready(function(){
+		function monsterinsights_scroll_tracking_load() {
+		if ( ( typeof(__gaTracker) !== 'undefined' && __gaTracker && __gaTracker.hasOwnProperty( "loaded" ) && __gaTracker.loaded == true ) || ( typeof(__gtagTracker) !== 'undefined' && __gtagTracker ) ) {
+		(function(factory) {
+		factory(jQuery);
+		}(function($) {
+
+		/* Scroll Depth */
+		"use strict";
+		var defaults = {
+		percentage: true
+		};
+
+		var $window = $(window),
+		cache = [],
+		scrollEventBound = false,
+		lastPixelDepth = 0;
+
+		/*
+		* Plugin
+		*/
+
+		$.scrollDepth = function(options) {
+
+		var startTime = +new Date();
+
+		options = $.extend({}, defaults, options);
+
+		/*
+		* Functions
+		*/
+
+		function sendEvent(action, label, scrollDistance, timing) {
+		if ( 'undefined' === typeof MonsterInsightsObject || 'undefined' === typeof MonsterInsightsObject.sendEvent ) {
+		return;
+		}
+			var paramName = action.toLowerCase();
+	var fieldsArray = {
+	send_to: 'G-2E9NND0N6Y',
+	non_interaction: true
+	};
+	fieldsArray[paramName] = label;
+
+	if (arguments.length > 3) {
+	fieldsArray.scroll_timing = timing
+	MonsterInsightsObject.sendEvent('event', 'scroll_depth', fieldsArray);
+	} else {
+	MonsterInsightsObject.sendEvent('event', 'scroll_depth', fieldsArray);
+	}
+			}
+
+		function calculateMarks(docHeight) {
+		return {
+		'25%' : parseInt(docHeight * 0.25, 10),
+		'50%' : parseInt(docHeight * 0.50, 10),
+		'75%' : parseInt(docHeight * 0.75, 10),
+		/* Cushion to trigger 100% event in iOS */
+		'100%': docHeight - 5
+		};
+		}
+
+		function checkMarks(marks, scrollDistance, timing) {
+		/* Check each active mark */
+		$.each(marks, function(key, val) {
+		if ( $.inArray(key, cache) === -1 && scrollDistance >= val ) {
+		sendEvent('Percentage', key, scrollDistance, timing);
+		cache.push(key);
+		}
+		});
+		}
+
+		function rounded(scrollDistance) {
+		/* Returns String */
+		return (Math.floor(scrollDistance/250) * 250).toString();
+		}
+
+		function init() {
+		bindScrollDepth();
+		}
+
+		/*
+		* Public Methods
+		*/
+
+		/* Reset Scroll Depth with the originally initialized options */
+		$.scrollDepth.reset = function() {
+		cache = [];
+		lastPixelDepth = 0;
+		$window.off('scroll.scrollDepth');
+		bindScrollDepth();
+		};
+
+		/* Add DOM elements to be tracked */
+		$.scrollDepth.addElements = function(elems) {
+
+		if (typeof elems == "undefined" || !$.isArray(elems)) {
+		return;
+		}
+
+		$.merge(options.elements, elems);
+
+		/* If scroll event has been unbound from window, rebind */
+		if (!scrollEventBound) {
+		bindScrollDepth();
+		}
+
+		};
+
+		/* Remove DOM elements currently tracked */
+		$.scrollDepth.removeElements = function(elems) {
+
+		if (typeof elems == "undefined" || !$.isArray(elems)) {
+		return;
+		}
+
+		$.each(elems, function(index, elem) {
+
+		var inElementsArray = $.inArray(elem, options.elements);
+		var inCacheArray = $.inArray(elem, cache);
+
+		if (inElementsArray != -1) {
+		options.elements.splice(inElementsArray, 1);
+		}
+
+		if (inCacheArray != -1) {
+		cache.splice(inCacheArray, 1);
+		}
+
+		});
+
+		};
+
+		/*
+		* Throttle function borrowed from:
+		* Underscore.js 1.5.2
+		* http://underscorejs.org
+		* (c) 2009-2013 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
+		* Underscore may be freely distributed under the MIT license.
+		*/
+
+		function throttle(func, wait) {
+		var context, args, result;
+		var timeout = null;
+		var previous = 0;
+		var later = function() {
+		previous = new Date;
+		timeout = null;
+		result = func.apply(context, args);
+		};
+		return function() {
+		var now = new Date;
+		if (!previous) previous = now;
+		var remaining = wait - (now - previous);
+		context = this;
+		args = arguments;
+		if (remaining <= 0) {
+		clearTimeout(timeout);
+		timeout = null;
+		previous = now;
+		result = func.apply(context, args);
+		} else if (!timeout) {
+		timeout = setTimeout(later, remaining);
+		}
+		return result;
+		};
+		}
+
+		/*
+		* Scroll Event
+		*/
+
+		function bindScrollDepth() {
+
+		scrollEventBound = true;
+
+		$window.on('scroll.scrollDepth', throttle(function() {
+		/*
+		* We calculate document and window height on each scroll event to
+		* account for dynamic DOM changes.
+		*/
+
+		var docHeight = $(document).height(),
+		winHeight = window.innerHeight ? window.innerHeight : $window.height(),
+		scrollDistance = $window.scrollTop() + winHeight,
+
+		/* Recalculate percentage marks */
+		marks = calculateMarks(docHeight),
+
+		/* Timing */
+		timing = +new Date - startTime;
+
+		checkMarks(marks, scrollDistance, timing);
+		}, 500));
+
+		}
+
+		init();
+		};
+
+		/* UMD export */
+		return $.scrollDepth;
+
+		}));
+
+		jQuery.scrollDepth();
+		} else {
+		setTimeout(monsterinsights_scroll_tracking_load, 200);
+		}
+		}
+		monsterinsights_scroll_tracking_load();
+		});
+		}
+		/* End MonsterInsights Scroll Tracking */
+		
+</script><link rel='stylesheet' id='tec-variables-skeleton-css' href='https://civmin.utoronto.ca/wp-content/plugins/the-events-calendar/common/src/resources/css/variables-skeleton.min.css?ver=6.0.2' type='text/css' media='all' />
+<link rel='stylesheet' id='tribe-common-skeleton-style-css' href='https://civmin.utoronto.ca/wp-content/plugins/the-events-calendar/common/src/resources/css/common-skeleton.min.css?ver=6.0.2' type='text/css' media='all' />
+<link rel='stylesheet' id='tribe-events-widgets-v2-events-list-skeleton-css' href='https://civmin.utoronto.ca/wp-content/plugins/the-events-calendar/src/resources/css/widget-events-list-skeleton.min.css?ver=6.6.3' type='text/css' media='all' />
+<link rel='stylesheet' id='tec-variables-full-css' href='https://civmin.utoronto.ca/wp-content/plugins/the-events-calendar/common/src/resources/css/variables-full.min.css?ver=6.0.2' type='text/css' media='all' />
+<link rel='stylesheet' id='tribe-common-full-style-css' href='https://civmin.utoronto.ca/wp-content/plugins/the-events-calendar/common/src/resources/css/common-full.min.css?ver=6.0.2' type='text/css' media='all' />
+<link rel='stylesheet' id='tribe-events-widgets-v2-events-list-full-css' href='https://civmin.utoronto.ca/wp-content/plugins/the-events-calendar/src/resources/css/widget-events-list-full.min.css?ver=6.6.3' type='text/css' media='all' />
+<script type="text/javascript" src="https://civmin.utoronto.ca/wp-content/plugins/data-tables-generator-by-supsystic/app/assets/js/dtgsnonce.js?ver=0.01" id="dtgs_nonce_frontend-js"></script>
+<script type="text/javascript" id="dtgs_nonce_frontend-js-after">
+/* <![CDATA[ */
+var DTGS_NONCE_FRONTEND = "ae41630ac9"
+/* ]]> */
+</script>
+<script type="text/javascript" id="awsm-team-js-extra">
+/* <![CDATA[ */
+var awsmTeamPublic = {"ajaxurl":"https:\/\/civmin.utoronto.ca\/wp-admin\/admin-ajax.php","deep_linking":{"enable":"","member":{"prefix":"member","suffix":"info"},"team":{"prefix":"team","suffix":"info"}},"scripts_src":"https:\/\/civmin.utoronto.ca\/wp-content\/plugins\/awsm-team-pro\/js"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://civmin.utoronto.ca/wp-content/plugins/awsm-team-pro/js/team.min.js?ver=1.10.2" id="awsm-team-js"></script>
+<script type="text/javascript" src="https://civmin.utoronto.ca/wp-content/plugins/bb-plugin/js/jquery.waypoints.min.js?ver=2.8.3.6" id="jquery-waypoints-js"></script>
+<script type="text/javascript" src="https://civmin.utoronto.ca/wp-content/plugins/bb-plugin/js/jquery.imagesloaded.min.js?ver=2.8.3.6" id="imagesloaded-js"></script>
+<script type="text/javascript" src="https://civmin.utoronto.ca/wp-content/plugins/bbpowerpack/assets/js/isotope.pkgd.min.js?ver=3.0.1" id="jquery-isotope-js"></script>
+<script type="text/javascript" src="https://civmin.utoronto.ca/wp-content/uploads/bb-plugin/cache/27502-layout.js?ver=8d77d2dd8e2eb2c065462d7149aa2bbd" id="fl-builder-layout-27502-js"></script>
+<script type="text/javascript" src="https://civmin.utoronto.ca/wp-content/themes/fase-theme-2023-master/dist/js/bootstrap/util.min.js?ver=4.0.0" id="bootstrap-util-js"></script>
+<script type="text/javascript" src="https://civmin.utoronto.ca/wp-content/themes/fase-theme-2023-master/dist/js/bundled/bootstrap.js?ver=4.0.4" id="bootstrap-theme-js"></script>
+<script type="text/javascript" defer='defer' src="https://civmin.utoronto.ca/wp-content/themes/fase-theme-2023-master/dist/js/site.min.js?ver=1.0.0" id="main-js"></script>
+<script type="text/javascript" src="https://civmin.utoronto.ca/wp-content/plugins/the-events-calendar/common/src/resources/js/tribe-common.min.js?ver=6.0.2" id="tribe-common-js"></script>
+<script type="text/javascript" src="https://civmin.utoronto.ca/wp-content/plugins/the-events-calendar/common/src/resources/js/utils/query-string.min.js?ver=6.0.2" id="tribe-query-string-js"></script>
+<script src='https://civmin.utoronto.ca/wp-content/plugins/the-events-calendar/common/src/resources/js/underscore-before.js'></script>
+<script type="text/javascript" src="https://civmin.utoronto.ca/wp-includes/js/underscore.min.js?ver=1.13.4" id="underscore-js"></script>
+<script src='https://civmin.utoronto.ca/wp-content/plugins/the-events-calendar/common/src/resources/js/underscore-after.js'></script>
+<script defer type="text/javascript" src="https://civmin.utoronto.ca/wp-content/plugins/the-events-calendar/src/resources/js/views/manager.min.js?ver=6.6.3" id="tribe-events-views-v2-manager-js"></script>
+<script type="text/javascript" src="https://civmin.utoronto.ca/wp-content/plugins/the-events-calendar/src/resources/js/views/breakpoints.min.js?ver=6.6.3" id="tribe-events-views-v2-breakpoints-js"></script>
+<style id='tribe-events-widgets-v2-events-list-full-inline-css' class='tec-customizer-inline-style' type='text/css'>
+:root {
+				/* Customizer-added Global Event styles */
+				--tec-font-family-sans-serif: inherit;
+--tec-font-family-base: inherit;
+--tec-font-size-0: 12px;
+--tec-font-size-1: 14px;
+--tec-font-size-2: 16px;
+--tec-font-size-3: 18px;
+--tec-font-size-4: 20px;
+--tec-font-size-5: 23px;
+--tec-font-size-6: 25px;
+--tec-font-size-7: 27px;
+--tec-font-size-8: 32px;
+--tec-font-size-9: 36px;
+--tec-font-size-10: 47px;
+--tec-color-text-events-title: #00546e;
+--tec-color-text-event-title: #00546e;
+--tec-color-link-primary: #00546e;
+--tec-color-link-accent: #00546e;
+--tec-color-link-accent-hover: rgba(0,84,110, 0.8);
+			}:root {
+				/* Customizer-added Events Bar styles */
+				--tec-color-text-events-bar-input: #00546e;
+--tec-color-text-events-bar-input-placeholder: #00546e;
+--tec-opacity-events-bar-input-placeholder: 0.6;
+--tec-color-text-view-selector-list-item: #00546e;
+--tec-color-text-view-selector-list-item-hover: #00546e;
+--tec-color-background-view-selector-list-item-hover: rgba(0,84,110, 0.12);
+			}:root {
+				/* Customizer-added Single Event styles */
+				--tec-color-text-event-title: #00546e;
+			}
+</style>
+</body>
+
+</html>
