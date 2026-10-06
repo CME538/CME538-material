@@ -1,0 +1,101 @@
+BranchCode,BranchName,Address,Lat,Long
+AB,Albion,"1515 Albion Road, Toronto, ON, M9V 1B2",43.739826,-79.584096
+ACD,Albert Campbell,"496 Birchmount Road, Toronto, ON, M1K 1N8",43.708019,-79.269252
+AD,Alderwood,"2 Orianna Drive, Toronto, ON, M8W 4Y1",43.601944,-79.547252
+AG,Agincourt,"155 Bonis Avenue, Toronto, ON, M1T 3W6",43.785167,-79.29343
+AH,Armour Heights,"2140 Avenue Road, Toronto, ON, M5M 4M7",43.739337,-79.421889
+AN,Annette Street,"145 Annette Street, Toronto, ON, M6P 1P3",43.663359,-79.466348
+AP,Amesbury Park,"1565 Lawrence Avenue West, Toronto, ON, M6L 1A8",43.706456,-79.485726
+BB,Brookbanks,"210 Brookbanks Drive, Toronto, ON, M3A 2T8",43.759507,-79.325904
+BC,Black Creek,"North York Sheridan Mall, 1700 Wilson Avenue, Toronto, ON, M3L 1B2",43.721219,-79.510467
+BD,Bendale,"1515 Danforth Road, Toronto, ON, M1J 1H5",43.751063,-79.244052
+BE,Beaches,"2161 Queen Street East, Toronto, ON, M4L 1J1",43.67013,-79.298526
+BF,Barbara Frum,"20 Covington Road, Toronto, ON, M6A 3C1",43.720752,-79.432215
+BL,Bloor/Gladstone,"1101 Bloor Street West, Toronto, ON, M6H 1M7",43.659878,-79.434022
+BR,Brentwood,"36 Brentwood Road North, Toronto, ON, M8X 2B5",43.647448,-79.514259
+BRW,Bridlewood,"Bridlewood Mall, 157A-2900 Warden Avenue, Toronto, ON, M1W 2S8",43.797144,-79.31777
+BUR,Burrows Hall,"1081 Progress Avenue, Toronto, ON, M1B 5Z6",43.793885,-79.23423
+CC,Cliffcrest,"3017 Kingston Road, Toronto, ON, M1M 1P1",43.72517,-79.23077
+CE,Centennial,"578 Finch Avenue West, Toronto, ON, M2R 1N7",43.772989,-79.449578
+CED,Cedarbrae,"545 Markham Road, Toronto, ON, M1H 2A1",43.75753,-79.223963
+CH,City Hall,"Nathan Phillips Square, 100 Queen Street West, Toronto, ON, M5H 2N3",43.653367,-79.383993
+CL,North York Central Library,"5120 Yonge Street, Toronto, ON, M2N 5N9",43.768078,-79.414244
+CS,College/Shaw,"766 College Street, Toronto, ON, M6G 1C4",43.655159,-79.420111
+DA,Danforth/Coxwell,"1675 Danforth Avenue, Toronto, ON, M4C 5P2",43.683574,-79.3214
+DM,Don Mills,"888 Lawrence Avenue East, Toronto, ON, M3C 1P6",43.736641,-79.347341
+DO,Downsview,"2793 Keele Street, Toronto, ON, M3M 2G3",43.72887,-79.482052
+DP,Deer Park,"40 St. Clair Avenue East, Toronto, ON, M4T 1M9",43.688581,-79.392481
+DR,Dawes Road,"416 Dawes Road, Toronto, ON, M4B 2E8",43.701174,-79.297326
+DT,Davenport,"1246 Shaw Street, Toronto, ON, M6G 3P1",43.67453,-79.428452
+DU,Dufferin/St. Clair,"1625 Dufferin Street, Toronto, ON, M6H 3L9",43.67693,-79.442407
+EA,Eatonville,"430 Burnhamthorpe Road, Toronto, ON, M9B 2B1",43.646122,-79.559163
+EB,Elmbrook Park,"2 Elmbrook Crescent, Toronto, ON, M9C 5B4",43.660122,-79.583844
+EG,Evelyn Gregory,"120 Trowell Avenue, Toronto, ON, M6M 1L7",43.686189,-79.472348
+EN,Ethennonnhawahstihnen',"100 Ethennonnhawahstihnen' Lane, Toronto, ON  M2K 3C9",43.76875,-79.375653
+ES,Eglinton Square,"Eglinton Square Shopping Centre, 1 Eglinton Square, Unit 126, Toronto, ON, M1L 2K1",43.723685,-79.300333
+FH,Forest Hill,"700 Eglinton Avenue West, Toronto, ON, M5N 1B9",43.702367,-79.42057
+FO,Fort York,"190 Fort York Boulevard, Toronto, ON M5V 0E7",43.63932,-79.40033
+FP,Flemingdon Park,"29 St. Dennis Drive, Toronto, ON, M3C 3J3",43.717811,-79.331756
+FV,Fairview,"35 Fairview Mall Drive, Toronto, ON, M2J 4S4",43.779026,-79.346644
+GE,Gerrard/Ashdale,"1432 Gerrard Street East, Toronto, ON, M4L 1Z6",43.672463,-79.322126
+GHP,Goldhawk Park,"295 Alton Towers Circle, Toronto, ON, M1V 4P1",43.823974,-79.277993
+GW,Guildwood,"Guildwood Plaza, 123 Guildwood Parkway, Toronto, ON, M1E 4V2",43.74667,-79.199889
+HB,Humber Bay,"200 Park Lawn Road, Toronto, ON, M8Y 3J1",43.629959,-79.491193
+HC,Highland Creek,"3550 Ellesmere Road, Toronto, ON, M1C 3Z2",43.789959,-79.175207
+HIL,Hillcrest,"5801 Leslie Street, Toronto, ON, M2H 1J8",43.797026,-79.369044
+HP,High Park,"228 Roncesvalles Avenue, Toronto, ON, M6R 2L7",43.645204,-79.448985
+HS,Humber Summit,"2990 Islington Avenue, Toronto, ON, M9L 2K6",43.758981,-79.571519
+HW,Humberwood,"850 Humberwood Boulevard, Toronto, ON, M9W 7A6",43.728996,-79.619163
+JD,Jane/Dundas,"620 Jane Street, Toronto, ON, M6S 4A6",43.66547,-79.491415
+JO,Jones,"118 Jones Avenue, Toronto, ON, M4M 2Z9",43.665952,-79.334496
+JS,Jane/Sheppard,"1906 Sheppard Avenue West, Toronto, ON, M3L 1Y7",43.73988,-79.51005
+KE,Kennedy/Eglinton,"Liberty Square Plaza, 2380 Eglinton Avenue East, Toronto, ON, M1K 2P3",43.732159,-79.270496
+LB,Long Branch,"3500 Lake Shore Boulevard West, Toronto, ON, M8W 1N6",43.595263,-79.531504
+LE,Leaside,"165 McRae Drive, Toronto, ON, M4G 1S8",43.706493,-79.367563
+LO,Locke,"3083 Yonge Street, Toronto, ON, M4N 2K7",43.724878,-79.401815
+LS,Lillian H. Smith,"239 College Street, Toronto, ON, M5T 1R5",43.6581,-79.3984
+MA,Main Street,"137 Main Street, Toronto, ON, M4E 2V9",43.683359,-79.299578
+MAL,Malvern,"30 Sewells Road, Toronto, ON, M1B 3G5",43.808315,-79.216067
+MAS,Maria A. Shchuka,"1745 Eglinton Avenue W, Toronto, ON, M6E 2H4",43.69613,-79.447193
+MCG,McGregor Park,"2219 Lawrence Avenue East, Toronto, ON, M1P 2P5",43.747707,-79.280719
+MD,Mount Dennis,"1123 Weston Road, Toronto, ON, M6N 3S3",43.686581,-79.488259
+MI,Mimico Centennial,"47 Station Road, Toronto, ON, M8V 2R1",43.614907,-79.493904
+MP,Mount Pleasant,"599 Mt. Pleasant Road, Toronto, ON, M4S 2M5",43.7039,-79.388126
+MRV,Maryvale,"Parkway Mall, 85 Ellesmere Road, Unit 22, Toronto, ON, M1R 4B9",43.757263,-79.311711
+MS,Morningside,"4279 Lawrence Avenue East, Toronto, ON, M1E 2S8",43.769885,-79.178541
+ND,Northern District,"40 Orchard View Boulevard, Toronto, ON, M4R 1B9",43.708241,-79.399874
+NE,Northern Elms,"123B Rexdale Boulevard, Unit 5, Toronto, ON, M9W 1P1",43.71133,-79.565548
+NT,New Toronto,"110 Eleventh Street, Toronto, ON, M8V 3G5",43.599085,-79.509741
+OV,Oakwood Village Library and Arts Centre,"341 Oakwood Avenue, Toronto, ON, M6E 2W1",43.686544,-79.438111
+PA,Pape/Danforth,"701 Pape Avenue, Toronto, ON, M4K 3S6",43.678559,-79.34457
+PE,Perth/Dupont,"1589 Dupont Street, Toronto, ON, M6P 3S5",43.665033,-79.45383
+PK,Parkdale,"1303 Queen Street West, Toronto, ON, M6K 1L6",43.641174,-79.432659
+PL,Parliament Street,"269 Gerrard Street East, Toronto, ON, M5A 2G3",43.661804,-79.3678
+PM,Palmerston,"560 Palmerston Avenue, Toronto, ON, M6G 2P7",43.665093,-79.414052
+PU,Port Union,"5450 Lawrence Avenue East, Toronto, ON, M1C 3B2",43.779478,-79.140289
+PV,Pleasant View,"575 Van Horne Avenue, Toronto, ON, M2J 4S8",43.787559,-79.33543
+QS,Queen/Saulter,"765 Queen Street East, Toronto, ON, M4M 1H3",43.659144,-79.347593
+RD,Riverdale,"370 Broadview Avenue, Toronto, ON, M4K 2M8",43.665759,-79.353163
+RI,Richview,"1806 Islington Avenue, Toronto, ON, M9P 3N3",43.683404,-79.541119
+RN,Runnymede,"2178 Bloor Street West, Toronto, ON, M6S 1M8",43.651856,-79.473844
+RX,Rexdale,"2243 Kipling Avenue, Toronto, ON, M9W 4L5",43.72613,-79.573207
+SA,Sanderson,"327 Bathurst Street, Toronto, ON, M5T 1J1",43.652085,-79.405519
+SC,Scarborough Civic Centre,"156 Borough Drive, Toronto, ON, M1P 4N7",43.772096,-79.256764
+SI,St. Clair/Silverthorn,"1748 St. Clair Avenue West, Toronto, ON, M6N 1J3",43.674263,-79.460585
+SJ,St. James Town,"495 Sherbourne Street, Toronto, ON, M4X 1K7",43.667263,-79.374467
+SL,St. Lawrence,"171 Front Street East, Toronto, ON, M5A 4H3",43.649981,-79.368496
+SP,Spadina Road,"10 Spadina Road, Toronto, ON, M5R 2S7",43.667159,-79.404378
+ST,Steeles,"Bamburgh Gardens Shopping Plaza, C107-375 Bamburgh Circle, Toronto, ON, M1W 3Y1",43.815381,-79.322304
+SW,Swansea Memorial,"95 Lavinia Avenue, Toronto, ON, M6S 3H9",43.64793,-79.478022
+SWS,S. Walter Stewart,"170 Memorial Park Avenue, Toronto, ON, M4J 2K5",43.692115,-79.329696
+TA,Taylor Memorial,"1440 Kingston Road, Toronto, ON, M1N 1R3",43.687781,-79.271252
+TH,Thorncliffe,"48 Thorncliffe Park Drive, Toronto, ON, M4H 1J7",43.702907,-79.342644
+TOD,Todmorden Room,"1081 1/2 Pape Ave (at Torrens), Toronto, ON, M4K 3W6",43.691626,-79.349326
+TRL,Toronto Reference Library,"789 Yonge Street, Toronto, ON, M4W 2G8",43.671737,-79.386763
+VV,Victoria Village,"184 Sloane Avenue, Toronto, ON, M4A 2C4",43.736011,-79.312911
+WE,Weston,"2 King Street, Toronto, ON, M9N 1K9",43.701796,-79.520585
+WP,Woodview Park,"16 Bradstock Road, Toronto, ON, M9M 1M8",43.739722,-79.538941
+WS,Woodside Square,"Woodside Square Mall, 1571 Sandhurst Circle, Toronto, ON, M1V 1V2",43.809463,-79.269548
+WY,Wychwood,"1431 Bathurst Street, Toronto, ON, M5R 3J2",43.682181,-79.417548
+YO,Yorkville,"22 Yorkville Avenue, Toronto, ON, M4W 1L4",43.671826,-79.388644
+YW,York Woods,"1785 Finch Avenue West, Toronto, ON, M3N 1M6",43.758893,-79.507267

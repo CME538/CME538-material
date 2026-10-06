@@ -1,0 +1,16 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><title>Lecture 5.6 data sources</title>
+<h1>Lecture 5.6 data sources</h1>
+<h2>Toronto Public Library branches</h2>
+<p><code>toronto_library_branches_2023.csv</code> contains 100 physical branches from the Toronto Public Library <a href="https://open.toronto.ca/dataset/library-branch-general-information/">Library Branch General Information</a> 2023 CSV. Retrieved on 5 October 2026 from the City of Toronto Open Data portal. The 112-row source also contains 12 other services. This extract selects <code>PhysicalBranch == 1</code> and retains BranchCode, BranchName, Address, Lat and Long. No coordinates are invented or geocoded.</p>
+<p>Contains information licensed under the <a href="https://open.toronto.ca/open-data-licence/">Open Government Licence – Toronto</a>. Source: Toronto Public Library / City of Toronto.</p>
+<p><a href="https://ckan0.cf.opendata.inter.prod-toronto.ca/dataset/f5aa9b07-da35-45e6-b31f-d6790eb9bd9b/resource/1c9e7b16-c8fc-4925-9639-1253b6e02422/download/tpl-branch-general-information-2023.csv">Original CSV resource</a>.</p>
+<h2>Existing Toronto layers</h2>
+<p><code>stations.csv</code> contains 608 Bike Share Toronto locations in the existing course snapshot. The source retrieval date is absent from the bundle. <code>toronto_neighbourhoods.shp</code> and its companion files contain the older 140-neighbourhood boundary system with WGS84 coordinates. Preserve the .shp, .shx, .dbf, .prj and .cpg files together.</p>
+<p>Related publisher pages: <a href="https://open.toronto.ca/dataset/bike-share-toronto/">Bike Share Toronto</a> and <a href="https://open.toronto.ca/dataset/neighbourhoods/">Toronto neighbourhoods</a>. The notebook retains the supplied historical files. The examples do not measure current station availability, service quality, population access or travel time.</p>
+<h2>Illustrative geometry</h2>
+<p>The three-shape example uses invented local metre coordinates for a point, line and polygon. No real site, road or property boundary is represented. The existing UofT and Toronto City Centre weather-station points are retained as supplied by the course.</p>
+<h2>Measurement and comparison</h2>
+<p>EPSG:4326 stores longitude and latitude in degrees. The distance demonstrations transform the Toronto layers to WGS84 / UTM zone 17N (EPSG:32617). Distances are planar straight-line distances in metres. Circular buffers exclude street networks, entrances, barriers and travel time. Combining a 2023 library extract with an undated station extract demonstrates methods, rather than a same-date service audit.</p>
+<h2>Documentation</h2>
+<p><a href="https://geopandas.org/en/stable/docs/user_guide/projections.html">Coordinate reference systems</a>, <a href="https://geopandas.org/en/stable/docs/user_guide/mergingdata.html">spatial joins</a>, <a href="https://geopandas.org/en/stable/docs/reference/api/geopandas.sjoin_nearest.html">nearest spatial joins</a>, <a href="https://shapely.readthedocs.io/en/stable/manual.html">Shapely geometry</a>.</p>
+</html>

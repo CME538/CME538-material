@@ -1,0 +1,19 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><title>Lecture 5.5 data sources</title>
+<h1>Lecture 5.5 data sources</h1>
+<p>All notebook examples read local files. Historical snapshots describe their recorded periods.</p>
+<h2>Added local datasets</h2>
+<ul>
+<li><code>spy_daily_close_2010_2020.csv</code>: 2,769 trading-day closes for SPDR S&amp;P 500 ETF Trust (SPY), 4 January 2010 to 31 December 2020. Retrieved through yfinance from <a href="https://finance.yahoo.com/quote/SPY/history/">Yahoo Finance historical data</a> on 5 October 2026. Download settings: <code>start='2010-01-01', end='2021-01-01', auto_adjust=False</code>. Only the Date and Close fields are retained. Close is the provider's unadjusted-close field in USD per share, rather than adjusted close or index points. The notebook retains the original price and first-difference demonstrations using this fixed classroom extract.</li>
+<li><code>illustrative_reservoir_daily.csv</code>: constructed CME538 teaching data, 180 daily rows starting 1 January 2024. Rainfall is generated from intermittent gamma-distributed amounts. Water level combines a gradual rise, a seven-day operating cycle, a short rainfall response, and random variation. Seed: 538. Seven water-level observations are deliberately missing. These values are neither recorded measurements nor a calibrated reservoir model. Fields: date, rainfall_mm (daily depth), water_level_m (a daily level reading).</li>
+</ul>
+<h2>Existing course files</h2>
+<ul>
+<li><code>bike_traffic_data.csv</code>: <a href="https://data.seattle.gov/Transportation/Fremont-Bridge-Bicycle-Counter/65db-xm6k">City of Seattle Fremont Bridge bicycle counter</a>. The course extract runs from October 2012 to July 2019 and records hourly crossings on two sidewalks. Counter totals are crossings rather than unique people or journey purposes.</li>
+<li><code>city_temperatures.csv</code>: Melbourne monthly temperature series attributed in the course materials to <a href="https://berkeleyearth.org/data/">Berkeley Earth</a>. The supplied extract contains 1841–2013 records and uncertainty estimates. Exact export history is absent from the course bundle. The additions use complete months from 1990–2012 without filling gaps.</li>
+<li><code>covid19_canada.csv</code>: historical <a href="https://health-infobase.canada.ca/covid-19/">Government of Canada COVID-19 surveillance</a> extract. The displayed national series uses the file's supplied seven-day average.</li>
+<li><code>Annual_Canadian_Lynx_trappings.csv</code>: annual Canadian lynx trappings, 1821–1934. See the <a href="https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/lynx.html">R datasets documentation and source references</a>. Trapping counts differ from a direct census of the animal population.</li>
+<li><code>earthquakes.csv</code>, <code>brick_production.csv</code>, <code>monthly_red_meat_slaughter.csv</code>, and <code>stacked_overflow.csv</code>: pre-existing course extracts retained unchanged. Exact original download records and redistribution licences are absent from the bundle. The notebook identifies the series and supplied units without asserting new provenance.</li>
+</ul>
+<h2>Documentation</h2>
+<p><a href="https://pandas.pydata.org/docs/user_guide/timeseries.html">pandas time-series guide</a>, <a href="https://pandas.pydata.org/docs/reference/api/pandas.Series.rolling.html">rolling windows</a>, <a href="https://pandas.pydata.org/docs/reference/api/pandas.Series.autocorr.html">lagged correlation</a>.</p>
+</html>
