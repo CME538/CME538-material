@@ -1,0 +1,13 @@
+Image,Actual,Predicted,Photo
+A,Cat,Cat,cat_01.jpg
+B,Dog,Dog,dog_01.jpg
+C,Rabbit,Dog,rabbit_01.jpg
+D,Cat,Dog,cat_02.jpg
+E,Dog,Cat,dog_02.jpg
+F,Cat,Cat,cat_03.jpg
+G,Rabbit,Rabbit,rabbit_02.jpg
+H,Cat,Rabbit,cat_04.jpg
+I,Dog,Dog,dog_03.jpg
+J,Cat,Cat,cat_05.jpg
+K,Dog,Dog,dog_04.jpg
+L,Cat,Cat,cat_06.jpg
